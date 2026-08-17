@@ -1675,9 +1675,9 @@ If it fails, run: `gh run view <run-id> --repo thewebster0326/Digi-Tech-Dstv --l
 
 - [ ] **Step 3: Verify the deployed files via FTP**
 
-Run:
+Run (substitute the actual FTP password — do not commit it to this file; retrieve it from wherever it's stored, e.g. the GitHub Actions secret `FTP_PASSWORD`):
 ```bash
-curl -s --user 'deploy@digitechdstv.co.za:kA3dy7NNVlFYrl1nzx6SfFWZ' "ftp://zacp103.webway.host/"
+curl -s --user 'deploy@digitechdstv.co.za:<FTP_PASSWORD>' "ftp://zacp103.webway.host/"
 ```
 Expected: listing includes `index.html`, `about/`, `services/`, `areas/`, `blog/`, `contact/`, `contact-handler.php`, `css/`, `js/`, `assets/` — and still shows `.htaccess`, `.well-known`, `cgi-bin`, `php.ini`, `.user.ini` untouched (same as before this deploy).
 
