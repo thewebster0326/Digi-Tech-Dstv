@@ -1,6 +1,0 @@
----
-deployment:
-  tasks:
-    - /bin/cp -f index.html /home/digitechdstv/public_html/index.html
-    - /bin/cp -f styles.css /home/digitechdstv/public_html/styles.css
-    - /bin/cp -rf assets /home/digitechdstv/public_html/
