@@ -47,7 +47,7 @@ if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
     respond(false, 'Please enter a valid email address.');
 }
 
-$subject = 'New Contact Form Submission - ' . $service;
+$subject = 'New Contact Form Submission - ' . sanitizeHeader($service);
 
 $body = "New enquiry from digitechdstv.co.za\n\n";
 $body .= "Name: $name\n";
