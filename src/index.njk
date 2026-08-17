@@ -1,6 +1,85 @@
 ---
 layout: base.njk
-title: "Digitech DSTV"
-description: "Digitech DSTV website"
+title: "Digitech DSTV | DSTV Installation & Repairs in the Western Cape"
+description: "Fast, professional DSTV installation, repairs and signal fixing across the Western Cape. Same-day service, certified installers, free quotes."
 ---
-<p>{{ site.businessName }} — site scaffold works.</p>
+{% from "partials/macros.njk" import serviceCard, testimonialCard, areaCard %}
+
+<section class="hero">
+  <div class="hero-inner">
+    <p class="eyebrow">★★★★★ Top Rated Installers</p>
+    <h1>Fast &amp; Reliable DSTV Installation in the Western Cape</h1>
+    <p class="lede">
+      Enjoy uninterrupted entertainment with professional DSTV satellite installation.
+      Whether you need a new setup, signal repairs, or extra view installation, our
+      certified installers are ready to help — from Cape Town to the Garden Route.
+    </p>
+    <div class="hero-actions">
+      <a href="{{ site.whatsappHref }}" class="btn btn-primary">WhatsApp Now</a>
+      <a href="/areas/" class="btn btn-ghost-light">Find Your Area</a>
+    </div>
+    <ul class="hero-badges">
+      <li>Same-Day DSTV Installation</li>
+      <li>Licensed DSTV Installers</li>
+      <li>Affordable Pricing</li>
+      <li>Servicing the Western Cape</li>
+    </ul>
+  </div>
+</section>
+
+<section class="section why-us">
+  <h2>Why Choose Us for Your DSTV Installation</h2>
+  <p class="section-lede">As the top-rated DSTV installers across the Western Cape, we deliver professional satellite installation services you can count on.</p>
+  <div class="grid grid-3">
+    <div class="card"><h3>Certified Installers</h3><p>Our team consists of fully trained and accredited DSTV installation technicians you can trust.</p></div>
+    <div class="card"><h3>Same-Day Service</h3><p>Need a DSTV installer near you today? We offer same-day installation across Cape Town and surrounding areas.</p></div>
+    <div class="card"><h3>Quality Guaranteed</h3><p>Every DSTV installation comes with a workmanship guarantee for your complete peace of mind.</p></div>
+    <div class="card"><h3>Expert Repairs</h3><p>From signal issues to decoder problems, our technicians diagnose and fix DSTV faults fast.</p></div>
+    <div class="card"><h3>Wide Coverage</h3><p>We service the entire Western Cape — from the West Coast to the Garden Route and beyond.</p></div>
+    <div class="card"><h3>Affordable Rates</h3><p>Competitive pricing with no hidden fees. Get a free quote before any work begins.</p></div>
+  </div>
+</section>
+
+<section class="section services-overview">
+  <h2>What We Offer</h2>
+  <p class="section-lede">From new DSTV installations to complex repairs, Digitech DSTV provides a full range of satellite installation services across the Western Cape.</p>
+  <div class="grid grid-3">
+    {% for service in services %}
+      {{ serviceCard(service, true) }}
+    {% endfor %}
+  </div>
+  <a href="/services/" class="btn btn-ghost">View All Services</a>
+</section>
+
+<section class="section testimonials">
+  <h2>What Our Customers Say</h2>
+  <p class="section-lede">Don't just take our word for it — hear from satisfied customers across the Western Cape.</p>
+  <div class="grid grid-2">
+    {% for t in testimonials %}
+      {{ testimonialCard(t) }}
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section areas-overview">
+  <h2>Where We Work</h2>
+  <p class="section-lede">We provide professional satellite installation across the entire Western Cape.</p>
+  <div class="grid grid-3">
+    {% for area in areas %}
+      {{ areaCard(area) }}
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section faq">
+  <h2>Frequently Asked Questions</h2>
+  <p class="section-lede">Got questions about DSTV installation? Find answers to the most common questions from our customers in the Western Cape.</p>
+  {% for item in faq %}
+  <details class="faq-item">
+    <summary>{{ item.q }}</summary>
+    <p>{{ item.a }}</p>
+  </details>
+  {% endfor %}
+</section>
+
+{% include "partials/cta-banner.njk" %}
