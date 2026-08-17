@@ -1,0 +1,28 @@
+{% macro serviceCard(service, compact=false) %}
+<div class="card service-card">
+  <h3>{{ service.name }}</h3>
+  <p>{{ service.summary }}</p>
+  {% if not compact %}
+  <ul>
+    {% for point in service.points %}
+    <li>{{ point }}</li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+</div>
+{% endmacro %}
+
+{% macro testimonialCard(t) %}
+<div class="card testimonial-card">
+  <p class="stars">★★★★★</p>
+  <p class="quote">"{{ t.quote }}"</p>
+  <p class="author">{{ t.name }}</p>
+</div>
+{% endmacro %}
+
+{% macro areaCard(area) %}
+<a href="/areas/{{ area.slug }}/" class="card area-card">
+  <h3>{{ area.name }}</h3>
+  <p>{{ area.suburbs | join(", ") }}</p>
+</a>
+{% endmacro %}

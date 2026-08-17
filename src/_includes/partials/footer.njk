@@ -1,0 +1,32 @@
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-col">
+      <img src="/assets/logo.png" alt="{{ site.businessName }} logo" class="footer-logo" />
+      <p>{{ site.tagline }}</p>
+    </div>
+    <div class="footer-col">
+      <h3>Quick Links</h3>
+      <a href="/about/">About</a>
+      <a href="/services/">Services</a>
+      <a href="/areas/">Service Areas</a>
+      <a href="/blog/">Blog</a>
+      <a href="/contact/">Contact</a>
+    </div>
+    <div class="footer-col">
+      <h3>Service Areas</h3>
+      {% for area in areas %}
+      <a href="/areas/{{ area.slug }}/">{{ area.name }}</a>
+      {% endfor %}
+    </div>
+    <div class="footer-col">
+      <h3>Contact</h3>
+      <a href="{{ site.phoneHref }}">{{ site.phone }}</a>
+      <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+      <p>{{ site.hours }}</p>
+      <p>{{ site.emergencyNote }}</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; <span id="year"></span> {{ site.businessName }}. All rights reserved.</p>
+  </div>
+</footer>
