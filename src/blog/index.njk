@@ -1,0 +1,20 @@
+---
+layout: base.njk
+title: "Blog | Digitech DSTV"
+description: "DSTV tips, troubleshooting guides and satellite installation advice from Digitech DSTV."
+---
+<section class="section page-header">
+  <h1>DSTV Tips &amp; Guides</h1>
+  <p class="section-lede">Troubleshooting tips, setup guides, and satellite installation advice from the Digitech DSTV team.</p>
+</section>
+
+<section class="section blog-list">
+  {% for post in collections.posts %}
+  <a href="{{ post.url }}" class="card blog-list-item">
+    <h2>{{ post.data.title }}</h2>
+    <p class="post-date">{{ post.data.date | readableDate }}</p>
+    <p>{{ post.data.excerpt }}</p>
+    <span class="read-more">Read More &rarr;</span>
+  </a>
+  {% endfor %}
+</section>
