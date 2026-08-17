@@ -9,9 +9,11 @@ eleventyComputed:
   title: "{{ area.pageTitle }}"
   description: "{{ area.intro }}"
 ---
-<section class="section page-header">
-  <h1>DSTV Installation in {{ area.name }}</h1>
-  <p class="section-lede">{{ area.intro }}</p>
+<section class="page-header has-photo" style="background-image: url('/assets/images/header-areas.jpg')">
+  <div class="page-header-inner">
+    <h1>DSTV Installation in {{ area.name }}</h1>
+    <p class="section-lede">{{ area.intro }}</p>
+  </div>
 </section>
 
 <section class="section area-suburbs">

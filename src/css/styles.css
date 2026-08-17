@@ -61,7 +61,7 @@ p { margin: 0 0 16px; color: var(--ink-300); }
   gap: 24px;
   position: relative;
 }
-.brand-logo { height: 40px; width: auto; }
+.brand-logo { height: 60px; width: auto; }
 .site-nav { display: flex; gap: 24px; flex: 1; justify-content: center; }
 .site-nav a { font-size: 14px; font-weight: 500; color: var(--ink-300); }
 .site-nav a:hover { color: var(--blue-300); }
@@ -82,6 +82,31 @@ p { margin: 0 0 16px; color: var(--ink-300); }
 .section-lede { max-width: 640px; color: var(--ink-300); }
 .page-header { padding-bottom: 24px; }
 .page-header h1 { font-size: clamp(28px, 4vw, 40px); }
+
+.page-header.has-photo {
+  position: relative;
+  max-width: none;
+  margin: 0;
+  min-height: 340px;
+  display: flex;
+  align-items: center;
+  padding: 120px 24px 56px;
+  background-size: cover;
+  background-position: center;
+}
+.page-header.has-photo::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(160deg, rgba(5, 10, 23, 0.82) 0%, rgba(8, 16, 41, 0.72) 55%, rgba(13, 26, 61, 0.6) 100%);
+}
+.page-header-inner {
+  position: relative;
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+.page-header.has-photo h1 { font-size: clamp(28px, 4vw, 40px); }
 
 .grid { display: grid; gap: 24px; margin: 32px 0; }
 .grid-2 { grid-template-columns: repeat(2, 1fr); }
@@ -104,11 +129,14 @@ p { margin: 0 0 16px; color: var(--ink-300); }
 .testimonial-card .author { color: var(--ink-100); font-weight: 600; margin: 0; }
 
 .hero {
-  background:
-    radial-gradient(circle at 20% 15%, rgba(47, 125, 250, 0.18), transparent 45%),
-    radial-gradient(circle at 85% 80%, rgba(77, 163, 255, 0.14), transparent 50%),
-    linear-gradient(160deg, var(--navy-950) 0%, var(--navy-900) 55%, var(--navy-800) 100%);
-  padding: 96px 24px 64px;
+  background-image:
+    radial-gradient(circle at 20% 15%, rgba(47, 125, 250, 0.28), transparent 45%),
+    radial-gradient(circle at 85% 80%, rgba(77, 163, 255, 0.2), transparent 50%),
+    linear-gradient(160deg, rgba(5, 10, 23, 0.94) 0%, rgba(8, 16, 41, 0.9) 55%, rgba(13, 26, 61, 0.86) 100%),
+    url('/assets/images/hero-home.jpg');
+  background-size: cover;
+  background-position: center 30%;
+  padding: 140px 24px 100px;
 }
 .hero-inner { max-width: var(--max-width); margin: 0 auto; text-align: left; }
 .hero .eyebrow { color: var(--blue-300); font-weight: 600; margin-bottom: 12px; }
@@ -153,7 +181,7 @@ p { margin: 0 0 16px; color: var(--ink-300); }
   grid-template-columns: repeat(4, 1fr);
   gap: 32px;
 }
-.footer-logo { height: 36px; margin-bottom: 12px; }
+.footer-logo { height: 48px; margin-bottom: 12px; }
 .footer-col h3 { font-size: 14px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-100); margin-bottom: 12px; }
 .footer-col a, .footer-col p { display: block; color: var(--ink-500); font-size: 14px; margin-bottom: 8px; }
 .footer-bottom { max-width: var(--max-width); margin: 32px auto 0; padding-top: 24px; border-top: 1px solid rgba(124, 192, 255, 0.08); font-size: 13px; color: var(--ink-500); }
