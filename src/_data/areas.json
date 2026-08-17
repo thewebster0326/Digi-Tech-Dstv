@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Cape Town",
+    "slug": "cape-town",
+    "pageTitle": "DSTV Installation Cape Town | Digitech DSTV",
+    "intro": "Trusted DSTV installers in Cape Town providing fast and affordable satellite installation, repairs, and signal fixing across the Cape Metro. From the City Bowl to the Northern Suburbs, Southern Suburbs, and Cape Flats — we cover all of Cape Town.",
+    "suburbs": ["City Bowl", "Northern Suburbs", "Southern Suburbs", "Cape Flats", "Atlantic Seaboard", "Helderberg"]
+  },
+  {
+    "name": "West Coast",
+    "slug": "west-coast",
+    "pageTitle": "DSTV Installers West Coast | Digitech DSTV",
+    "intro": "Affordable DSTV installation on the West Coast. As the go-to DSTV installers in Vredenburg, Saldanha, Langebaan, and St Helena Bay, we ensure reliable satellite TV reception for all West Coast residents.",
+    "suburbs": ["Vredenburg", "Saldanha", "Langebaan", "St Helena Bay", "Velddrif", "Malmesbury"]
+  },
+  {
+    "name": "Overberg",
+    "slug": "overberg",
+    "pageTitle": "DSTV Installation Overberg | Digitech DSTV",
+    "intro": "Professional DSTV installation in the Overberg region. Trusted DSTV installers in Hermanus, Caledon, and Bredasdorp offering new installations, signal repairs, and extra view setup.",
+    "suburbs": ["Hermanus", "Caledon", "Bredasdorp", "Stanford", "Gansbaai", "Kleinmond"]
+  },
+  {
+    "name": "Garden Route",
+    "slug": "garden-route",
+    "pageTitle": "DSTV Installation Garden Route | Digitech DSTV",
+    "intro": "Reliable DSTV installation on the Garden Route. From George to Knysna, our qualified satellite installers provide professional DSTV services to homes and businesses across the entire Garden Route region.",
+    "suburbs": ["George", "Mossel Bay", "Knysna", "Oudtshoorn", "Plettenberg Bay", "Wilderness"]
+  },
+  {
+    "name": "Winelands",
+    "slug": "winelands",
+    "pageTitle": "DSTV Installation Winelands | Digitech DSTV",
+    "intro": "Professional DSTV installation and repairs across the Cape Winelands. Digitech DSTV serves homes and businesses in Stellenbosch, Paarl, and Franschhoek with the same fast, reliable service we're known for across the Western Cape.",
+    "suburbs": ["Stellenbosch", "Paarl", "Franschhoek"]
+  }
+]

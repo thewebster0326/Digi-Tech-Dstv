@@ -1,0 +1,38 @@
+[
+  {
+    "name": "DSTV Installation",
+    "slug": "dstv-installation",
+    "summary": "Complete new DSTV installation including dish mounting, cabling, and decoder setup. We install all DSTV packages — from DSTV Access to Premium.",
+    "points": ["Professional dish mounting", "Neat hidden cabling", "Full decoder setup and activation", "Signal quality guarantee"]
+  },
+  {
+    "name": "DSTV Repairs",
+    "slug": "dstv-repairs",
+    "summary": "Expert DSTV repair services for all types of decoder and satellite dish problems. We diagnose and fix faults quickly to restore your viewing.",
+    "points": ["Decoder troubleshooting", "LNB replacement", "Cable fault detection", "Fast turnaround time"]
+  },
+  {
+    "name": "Signal Fixing",
+    "slug": "signal-fixing",
+    "summary": "Experiencing poor signal or the dreaded \"no signal\" error? Our DSTV signal installers will identify and resolve all reception issues for clear, uninterrupted viewing.",
+    "points": ["Signal strength testing", "Interference elimination", "Weather-resistant solutions", "Lasting signal stability"]
+  },
+  {
+    "name": "Dish Alignment",
+    "slug": "dish-alignment",
+    "summary": "Precise satellite dish alignment using professional-grade meters. Perfect alignment means optimal signal quality and fewer disruptions during bad weather.",
+    "points": ["Professional alignment tools", "Maximum signal strength", "Reduced weather impact", "Improved picture quality"]
+  },
+  {
+    "name": "Extra View Setup",
+    "slug": "extra-view-setup",
+    "summary": "Watch different channels on multiple TVs with DSTV Extra View and Explora Ultra setup. One subscription, multiple viewing points throughout your home.",
+    "points": ["Multi-room entertainment", "Explora Ultra installation", "Wireless connectivity setup", "Cost-effective multi-view"]
+  },
+  {
+    "name": "Satellite Dish Installation",
+    "slug": "satellite-dish-installation",
+    "summary": "Professional satellite dish installation for DSTV, OpenView, and other satellite services. We ensure secure mounting and optimal positioning for the best reception.",
+    "points": ["Secure weatherproof mounting", "Optimal positioning", "All satellite brands", "Structural integrity check"]
+  }
+]
