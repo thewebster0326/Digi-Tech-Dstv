@@ -1,7 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/digitechdstv/public_html/
-    - /bin/cp -r index.html $DEPLOYPATH
-    - /bin/cp -r styles.css $DEPLOYPATH
-    - /bin/cp -r assets $DEPLOYPATH
+    - /bin/cp -f index.html /home/digitechdstv/public_html/index.html
+    - /bin/cp -f styles.css /home/digitechdstv/public_html/styles.css
+    - /bin/cp -rf assets /home/digitechdstv/public_html/
