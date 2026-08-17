@@ -1,0 +1,31 @@
+---
+layout: base.njk
+pagination:
+  data: areas
+  size: 1
+  alias: area
+permalink: "areas/{{ area.slug }}/index.html"
+eleventyComputed:
+  title: "{{ area.pageTitle }}"
+  description: "{{ area.intro }}"
+---
+<section class="section page-header">
+  <h1>DSTV Installation in {{ area.name }}</h1>
+  <p class="section-lede">{{ area.intro }}</p>
+</section>
+
+<section class="section area-suburbs">
+  <h2>Areas We Cover in {{ area.name }}</h2>
+  <ul class="suburb-list">
+    {% for suburb in area.suburbs %}
+    <li>{{ suburb }}</li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section class="section area-services">
+  <h2>DSTV Services in {{ area.name }}</h2>
+  <p>We offer full DSTV installation, repairs, signal fixing, dish alignment, and Extra View setup throughout {{ area.name }}. <a href="/services/">See all our services</a>.</p>
+</section>
+
+{% include "partials/cta-banner.njk" %}

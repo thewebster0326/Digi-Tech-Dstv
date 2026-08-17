@@ -1,0 +1,27 @@
+---
+layout: base.njk
+title: "DSTV Installation Service Areas | Digitech DSTV"
+description: "Digitech DSTV provides trusted DSTV installation services throughout the Western Cape — Cape Town, West Coast, Overberg, Garden Route and the Winelands."
+---
+{% from "partials/macros.njk" import areaCard %}
+
+<section class="section page-header">
+  <h1>DSTV Installation Across the Western Cape</h1>
+  <p class="section-lede">Digitech DSTV provides trusted DSTV installation services throughout the Western Cape. Find your local DSTV installer below.</p>
+</section>
+
+<section class="section areas-full">
+  <div class="grid grid-3">
+    {% for area in areas %}
+      {{ areaCard(area) }}
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section not-listed">
+  <h2>Don't See Your Area Listed?</h2>
+  <p>We service the entire Western Cape. Contact us to confirm availability in your area.</p>
+  <a href="{{ site.phoneHref }}" class="btn btn-primary">{{ site.phone }}</a>
+</section>
+
+{% include "partials/cta-banner.njk" %}
