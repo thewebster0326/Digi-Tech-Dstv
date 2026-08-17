@@ -66,6 +66,7 @@ p { margin: 0 0 16px; color: var(--ink-300); }
 .site-nav a { font-size: 14px; font-weight: 500; color: var(--ink-300); }
 .site-nav a:hover { color: var(--blue-300); }
 .header-actions { display: flex; gap: 12px; }
+.nav-actions-mobile { display: none; }
 .nav-toggle {
   display: none;
   flex-direction: column;
@@ -141,6 +142,7 @@ p { margin: 0 0 16px; color: var(--ink-300); }
 .cta-banner h2 { color: var(--white); }
 .cta-banner p { color: rgba(255, 255, 255, 0.85); }
 .cta-actions { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+.about-content .cta-actions { justify-content: flex-start; }
 .cta-banner .btn-ghost-light { border-color: rgba(255, 255, 255, 0.5); }
 
 .site-footer { border-top: 1px solid rgba(124, 192, 255, 0.12); padding: 48px 24px 24px; }
@@ -197,6 +199,12 @@ p { margin: 0 0 16px; color: var(--ink-300); }
 @media (max-width: 900px) {
   .site-nav, .header-actions { display: none; }
   .nav-toggle { display: flex; }
+  .nav-actions-mobile {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 16px;
+  }
   .site-nav.is-open {
     display: flex;
     flex-direction: column;

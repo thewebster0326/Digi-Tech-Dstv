@@ -35,7 +35,7 @@ $phone = trim($data['phone'] ?? '');
 $email = trim($data['email'] ?? '');
 $city = trim($data['city'] ?? '');
 $service = trim($data['service'] ?? '');
-$message = trim($data['message'] ?? '');
+$message = mb_substr(trim($data['message'] ?? ''), 0, 2000);
 
 if ($name === '' || $phone === '' || $email === '' || $city === '' || $service === '') {
     http_response_code(422);

@@ -1677,7 +1677,7 @@ If it fails, run: `gh run view <run-id> --repo thewebster0326/Digi-Tech-Dstv --l
 
 Run (substitute the actual FTP password — do not commit it to this file; retrieve it from wherever it's stored, e.g. the GitHub Actions secret `FTP_PASSWORD`):
 ```bash
-curl -s --user 'deploy@digitechdstv.co.za:<FTP_PASSWORD>' "ftp://zacp103.webway.host/"
+curl -s --user 'deploy@digitechdstv.co.za:<FTP_PASSWORD>' "ftp://<CPANEL_HOSTNAME>/"
 ```
 Expected: listing includes `index.html`, `about/`, `services/`, `areas/`, `blog/`, `contact/`, `contact-handler.php`, `css/`, `js/`, `assets/` — and still shows `.htaccess`, `.well-known`, `cgi-bin`, `php.ini`, `.user.ini` untouched (same as before this deploy).
 
@@ -1689,7 +1689,7 @@ curl -s -X POST https://digitechdstv.co.za/contact-handler.php \
   -H "Content-Type: application/json" \
   -d '{"name":"Smoke Test","phone":"0812345678","email":"test@example.com","city":"Cape Town","service":"DSTV Repairs","message":"Deployment smoke test - please disregard"}'
 ```
-Expected: `{"success":true,"error":null}`. If DNS hasn't finished propagating yet, use `https://102.208.231.4/contact-handler.php` with a `Host: digitechdstv.co.za` header instead, or wait for propagation and retry.
+Expected: `{"success":true,"error":null}`. If DNS hasn't finished propagating yet, use `https://<ORIGIN_IP>/contact-handler.php` with a `Host: digitechdstv.co.za` header instead, or wait for propagation and retry.
 
 Confirm with the site owner that this test submission arrived in the `info@digitechdstv.co.za` inbox.
 

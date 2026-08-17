@@ -1,5 +1,8 @@
 {
   "layout": "layouts/post.njk",
   "tags": ["post"],
-  "permalink": "/blog/{{ page.fileSlug }}/index.html"
+  "permalink": "/blog/{{ page.fileSlug }}/index.html",
+  "eleventyComputed": {
+    "pageTitle": "{{ title }} | Digitech DSTV"
+  }
 }
