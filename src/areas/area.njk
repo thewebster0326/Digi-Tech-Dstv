@@ -9,6 +9,8 @@ eleventyComputed:
   title: "{{ area.pageTitle }}"
   description: "{{ area.intro }}"
 ---
+{% from "partials/macros.njk" import serviceCard %}
+
 <section class="page-header has-photo" style="background-image: url('/assets/images/header-areas.jpg')">
   <div class="page-header-inner">
     <h1>DSTV Installation in {{ area.name }}</h1>
@@ -30,9 +32,23 @@ eleventyComputed:
   </ul>
 </section>
 
+{% if area.slug == "cape-town" %}
+<section class="section area-services">
+  <h2>DSTV Services in {{ area.name }}</h2>
+  <div class="grid grid-3">
+    {% for service in services %}
+      {% if service.slug != "satellite-dish-installation" %}
+        {{ serviceCard(service, true, "/areas/cape-town/" + service.slug + "/") }}
+      {% endif %}
+    {% endfor %}
+  </div>
+  <a href="/services/" class="btn btn-ghost">View All Services</a>
+</section>
+{% else %}
 <section class="section area-services">
   <h2>DSTV Services in {{ area.name }}</h2>
   <p>We offer full DSTV installation, repairs, signal fixing, dish alignment, and Extra View setup throughout {{ area.name }}. <a href="/services/">See all our services</a>.</p>
 </section>
+{% endif %}
 
 {% include "partials/cta-banner.njk" %}

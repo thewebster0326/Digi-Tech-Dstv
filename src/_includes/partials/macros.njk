@@ -1,5 +1,5 @@
-{% macro serviceCard(service, compact=false) %}
-<div class="card service-card">
+{% macro serviceCard(service, compact=false, href=None) %}
+{% if href %}<a href="{{ href }}" class="card service-card">{% else %}<div class="card service-card">{% endif %}
   <h3>{{ service.name }}</h3>
   <p>{{ service.summary }}</p>
   {% if not compact %}
@@ -9,7 +9,7 @@
     {% endfor %}
   </ul>
   {% endif %}
-</div>
+{% if href %}</a>{% else %}</div>{% endif %}
 {% endmacro %}
 
 {% macro testimonialCard(t) %}

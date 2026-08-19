@@ -1,0 +1,35 @@
+---
+layout: base.njk
+pagination:
+  data: serviceTownPages
+  size: 1
+  alias: page
+permalink: "areas/{{ page.location.slug }}/{{ page.service.slug }}/index.html"
+eleventyComputed:
+  title: "{{ page.service.name }} in {{ page.location.name }} | Digitech DSTV"
+  description: "{{ page.service.summary }}"
+---
+<section class="page-header has-photo" style="background-image: url('/assets/images/header-services.jpg')">
+  <div class="page-header-inner">
+    <h1>{{ page.service.name }} in {{ page.location.name }}</h1>
+    <p class="section-lede">{{ page.paragraph }}</p>
+  </div>
+</section>
+
+<section class="section service-town-detail">
+  <h2>What's Included</h2>
+  <p>{{ page.service.summary }}</p>
+  <ul class="check-list">
+    {% for point in page.service.points %}
+    <li>{{ point }}</li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section class="section service-town-links">
+  <p>
+    Looking for other services in {{ page.location.name }}? <a href="{{ page.location.hubUrl }}">See all our services in {{ page.location.name }}</a>{% if page.location.regionUrl %}, part of our <a href="{{ page.location.regionUrl }}">{{ page.location.regionName }}</a> coverage area{% endif %}.
+  </p>
+</section>
+
+{% include "partials/cta-banner.njk" %}

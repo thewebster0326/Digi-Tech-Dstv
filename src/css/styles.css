@@ -183,6 +183,9 @@ p { margin: 0 0 16px; color: var(--ink-300); }
 .area-card { display: block; }
 .area-card:hover { border-color: rgba(124, 192, 255, 0.4); }
 
+a.service-card { display: block; transition: border-color 0.2s ease, transform 0.2s ease; }
+a.service-card:hover { border-color: rgba(124, 192, 255, 0.4); transform: translateY(-2px); }
+
 .testimonial-card .stars { color: var(--blue-400); margin: 0 0 8px; }
 .testimonial-card .quote { font-style: italic; }
 .testimonial-card .author { color: var(--ink-100); font-weight: 600; margin: 0; }

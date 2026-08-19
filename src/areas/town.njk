@@ -27,7 +27,7 @@ eleventyComputed:
   <div class="grid grid-3">
     {% for service in services %}
       {% if service.slug != "satellite-dish-installation" %}
-        {{ serviceCard(service, true) }}
+        {{ serviceCard(service, true, "/areas/" + town.slug + "/" + service.slug + "/") }}
       {% endif %}
     {% endfor %}
   </div>
