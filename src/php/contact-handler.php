@@ -57,7 +57,7 @@ $body .= "City: $city\n";
 $body .= "Service Needed: $service\n";
 $body .= "Message: " . ($message !== '' ? $message : '(none)') . "\n";
 
-$headers = "From: no-reply@digitechdstv.co.za\r\n";
+$headers = "From: info@digitechdstv.co.za\r\n";
 $headers .= "Reply-To: " . sanitizeHeader($email) . "\r\n";
 $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
 
