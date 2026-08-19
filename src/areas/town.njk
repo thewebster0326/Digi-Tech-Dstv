@@ -1,0 +1,41 @@
+---
+layout: base.njk
+pagination:
+  data: towns
+  size: 1
+  alias: town
+permalink: "areas/{{ town.slug }}/index.html"
+eleventyComputed:
+  title: "{{ town.pageTitle }}"
+  description: "{{ town.description }}"
+---
+{% from "partials/macros.njk" import serviceCard %}
+
+<section class="page-header has-photo" style="background-image: url('/assets/images/header-areas.jpg')">
+  <div class="page-header-inner">
+    <h1>DSTV Installation in {{ town.name }}</h1>
+    <p class="section-lede">{{ town.intro }}</p>
+  </div>
+</section>
+
+<section class="section town-context">
+  <p>{{ town.context }}</p>
+</section>
+
+<section class="section town-services">
+  <h2>DSTV Services in {{ town.name }}</h2>
+  <div class="grid grid-3">
+    {% for service in services %}
+      {% if service.slug != "satellite-dish-installation" %}
+        {{ serviceCard(service, true) }}
+      {% endif %}
+    {% endfor %}
+  </div>
+  <a href="/services/" class="btn btn-ghost">View All Services</a>
+</section>
+
+<section class="section town-region">
+  <p>{{ town.name }} is part of our {{ town.regionName }} coverage area. <a href="/areas/{{ town.region }}/">See all areas we serve in {{ town.regionName }}</a>.</p>
+</section>
+
+{% include "partials/cta-banner.njk" %}

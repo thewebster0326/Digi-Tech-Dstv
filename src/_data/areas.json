@@ -4,7 +4,7 @@
     "slug": "cape-town",
     "pageTitle": "DSTV Installation Cape Town | Digitech DSTV",
     "intro": "Trusted DSTV installers in Cape Town providing fast and affordable satellite installation, repairs, and signal fixing across the Cape Metro. From the City Bowl to the Northern Suburbs, Southern Suburbs, and Cape Flats — we cover all of Cape Town.",
-    "suburbs": ["City Bowl", "Northern Suburbs", "Southern Suburbs", "Cape Flats", "Atlantic Seaboard", "Helderberg"]
+    "suburbs": ["City Bowl", "Northern Suburbs", "Southern Suburbs", "Cape Flats", "Atlantic Seaboard", "Helderberg", "Somerset West", "Durbanville"]
   },
   {
     "name": "West Coast",
@@ -18,14 +18,14 @@
     "slug": "overberg",
     "pageTitle": "DSTV Installation Overberg | Digitech DSTV",
     "intro": "Professional DSTV installation in the Overberg region. Trusted DSTV installers in Hermanus, Caledon, and Bredasdorp offering new installations, signal repairs, and extra view setup.",
-    "suburbs": ["Hermanus", "Caledon", "Bredasdorp", "Stanford", "Gansbaai", "Kleinmond"]
+    "suburbs": ["Hermanus", "Caledon", "Bredasdorp", "Stanford", "Gansbaai", "Kleinmond", "Betty's Bay", "Struisbaai"]
   },
   {
     "name": "Garden Route",
     "slug": "garden-route",
     "pageTitle": "DSTV Installation Garden Route | Digitech DSTV",
     "intro": "Reliable DSTV installation on the Garden Route. From George to Knysna, our qualified satellite installers provide professional DSTV services to homes and businesses across the entire Garden Route region.",
-    "suburbs": ["George", "Mossel Bay", "Knysna", "Oudtshoorn", "Plettenberg Bay", "Wilderness"]
+    "suburbs": ["George", "Mossel Bay", "Knysna", "Oudtshoorn", "Plettenberg Bay", "Wilderness", "Stilbaai"]
   },
   {
     "name": "Winelands",

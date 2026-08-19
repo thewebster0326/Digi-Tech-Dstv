@@ -20,7 +20,12 @@ eleventyComputed:
   <h2>Areas We Cover in {{ area.name }}</h2>
   <ul class="suburb-list">
     {% for suburb in area.suburbs %}
-    <li>{{ suburb }}</li>
+      {% set matchedTown = towns | findTown(suburb, area.slug) %}
+      {% if matchedTown %}
+      <li><a href="/areas/{{ matchedTown.slug }}/">{{ suburb }}</a></li>
+      {% else %}
+      <li>{{ suburb }}</li>
+      {% endif %}
     {% endfor %}
   </ul>
 </section>

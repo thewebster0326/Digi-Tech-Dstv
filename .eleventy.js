@@ -16,6 +16,10 @@ module.exports = function (eleventyConfig) {
     return collectionApi.getFilteredByTag("post").sort((a, b) => b.date - a.date);
   });
 
+  eleventyConfig.addFilter("findTown", function (townsList, name, region) {
+    return townsList.find((t) => t.name === name && t.region === region) || null;
+  });
+
   return {
     dir: {
       input: "src",
