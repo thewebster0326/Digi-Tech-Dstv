@@ -25,6 +25,13 @@
   "url": "{{ site.url }}",
   "telephone": "{{ site.phoneHref | replace('tel:', '') }}",
   "email": "{{ site.email }}",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "{{ site.addressStreet }}",
+    "addressLocality": "{{ site.addressCity }}",
+    "postalCode": "{{ site.addressPostalCode }}",
+    "addressCountry": "ZA"
+  },
   "areaServed": "Western Cape, South Africa",
   "openingHours": "Mo-Sa 07:00-17:00"
 }
