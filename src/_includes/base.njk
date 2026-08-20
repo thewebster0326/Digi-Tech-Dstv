@@ -10,6 +10,25 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/css/styles.css" />
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.gaId }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', '{{ site.gaId }}');
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "{{ site.businessName }}",
+  "url": "{{ site.url }}",
+  "telephone": "{{ site.phoneHref | replace('tel:', '') }}",
+  "email": "{{ site.email }}",
+  "areaServed": "Western Cape, South Africa",
+  "openingHours": "Mo-Sa 07:00-17:00"
+}
+</script>
 </head>
 <body>
 {% include "partials/header.njk" %}

@@ -4,6 +4,7 @@ pagination:
   data: serviceTownPages
   size: 1
   alias: page
+  addAllPagesToCollections: true
 permalink: "areas/{{ page.location.slug }}/{{ page.service.slug }}/index.html"
 eleventyComputed:
   title: "{{ page.service.name }} in {{ page.location.name }} | Digitech DSTV"
