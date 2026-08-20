@@ -266,13 +266,14 @@ a.service-card:hover { border-color: rgba(124, 192, 255, 0.4); transform: transl
 .floating-contact {
   position: fixed;
   right: 20px;
-  bottom: 20px;
+  bottom: calc(20px + env(safe-area-inset-bottom, 0px));
   z-index: 60;
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 14px;
 }
 .floating-btn {
+  position: relative;
   width: 52px;
   height: 52px;
   border-radius: 50%;
@@ -280,15 +281,36 @@ a.service-card:hover { border-color: rgba(124, 192, 255, 0.4); transform: transl
   align-items: center;
   justify-content: center;
   color: var(--white);
+  border: 2px solid rgba(255, 255, 255, 0.15);
   box-shadow: 0 10px 24px -8px rgba(0, 0, 0, 0.55);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+  -webkit-tap-highlight-color: transparent;
 }
 .floating-btn svg { width: 24px; height: 24px; }
 .floating-btn:hover { transform: translateY(-3px) scale(1.06); box-shadow: 0 14px 28px -6px rgba(0, 0, 0, 0.6); }
-.floating-btn-email { background: linear-gradient(160deg, var(--blue-400), var(--blue-500)); }
+.floating-btn:active { transform: scale(0.92); box-shadow: 0 4px 10px -4px rgba(0, 0, 0, 0.6); }
 .floating-btn-call { background: linear-gradient(160deg, var(--blue-300), var(--blue-500)); }
 .floating-btn-whatsapp { background: #25d366; }
 .floating-btn-whatsapp:hover { background: #22c05e; }
+.floating-btn-whatsapp-2 { background: #128c7e; }
+.floating-btn-whatsapp-2:hover { background: #0f7367; }
+.floating-btn-badge {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--navy-950);
+  border: 2px solid var(--navy-900);
+  color: var(--white);
+  font-size: 10px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+}
 
 .check-list, .suburb-list { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
 .check-list li, .suburb-list li { padding-left: 24px; position: relative; color: var(--ink-300); }
@@ -329,9 +351,10 @@ a.service-card:hover { border-color: rgba(124, 192, 255, 0.4); transform: transl
 #form-status.status-error { color: #ff6b6b; }
 
 @media (max-width: 900px) {
-  .floating-contact { right: 16px; bottom: 16px; gap: 10px; }
+  .floating-contact { right: 16px; bottom: calc(16px + env(safe-area-inset-bottom, 0px)); gap: 12px; }
   .floating-btn { width: 56px; height: 56px; box-shadow: 0 8px 20px -6px rgba(0, 0, 0, 0.6); }
   .floating-btn svg { width: 26px; height: 26px; }
+  .floating-btn-badge { width: 20px; height: 20px; font-size: 11px; }
   .site-nav, .header-actions { display: none; }
   .nav-toggle { display: flex; }
   .nav-actions-mobile {
