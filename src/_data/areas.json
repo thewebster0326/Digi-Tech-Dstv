@@ -4,7 +4,15 @@
     "slug": "cape-town",
     "pageTitle": "DSTV Installation Cape Town | Digitech DSTV",
     "intro": "Trusted DSTV installers in Cape Town providing fast and affordable satellite installation, repairs, and signal fixing across the Cape Metro. From the City Bowl to the Northern Suburbs, Southern Suburbs, and Cape Flats — we cover all of Cape Town.",
-    "suburbs": ["City Bowl", "Northern Suburbs", "Southern Suburbs", "Cape Flats", "Atlantic Seaboard", "Helderberg", "Somerset West", "Durbanville"]
+    "suburbs": ["City Bowl", "Northern Suburbs", "Southern Suburbs", "Cape Flats", "Atlantic Seaboard", "Helderberg", "Somerset West", "Durbanville"],
+    "suburbGroups": [
+      { "name": "City Bowl", "suburbs": ["Gardens", "Tamboerskloof", "Vredehoek", "Oranjezicht", "De Waterkant", "Zonnebloem"] },
+      { "name": "Atlantic Seaboard", "suburbs": ["Sea Point", "Green Point", "Camps Bay", "Clifton", "Mouille Point", "Hout Bay"] },
+      { "name": "Southern Suburbs", "suburbs": ["Claremont", "Rondebosch", "Newlands", "Constantia", "Wynberg", "Tokai", "Bergvliet"] },
+      { "name": "Northern Suburbs", "suburbs": ["Durbanville", "Bellville", "Kraaifontein", "Brackenfell", "Parow", "Goodwood", "Kuils River"] },
+      { "name": "Helderberg", "suburbs": ["Somerset West", "Strand", "Gordon's Bay"] },
+      { "name": "Cape Flats", "suburbs": ["Mitchells Plain", "Khayelitsha", "Athlone", "Bonteheuwel", "Delft", "Philippi"] }
+    ]
   },
   {
     "name": "West Coast",

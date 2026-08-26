@@ -317,6 +317,10 @@ a.service-card:hover { border-color: rgba(124, 192, 255, 0.4); transform: transl
 .check-list li::before { content: "✓"; position: absolute; left: 0; color: var(--blue-400); font-weight: 700; }
 .suburb-list li::before { content: "•"; position: absolute; left: 0; color: var(--blue-400); }
 
+.suburb-group { margin-bottom: 28px; }
+.suburb-group:last-child { margin-bottom: 0; }
+.suburb-group h3 { font-size: 16px; color: var(--blue-300); margin-bottom: 12px; }
+
 .faq-item { border-bottom: 1px solid rgba(124, 192, 255, 0.12); padding: 16px 0; }
 .faq-item summary { cursor: pointer; font-weight: 600; color: var(--ink-100); }
 .faq-item p { margin-top: 12px; }
