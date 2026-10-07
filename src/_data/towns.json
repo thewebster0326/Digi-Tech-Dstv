@@ -98,5 +98,93 @@
     "description": "DSTV installation and repairs in Caledon, gateway to the Overberg along the N2 highway.",
     "intro": "Known for its hot springs and the wildflowers of Victoria Park, Caledon sits on the N2 highway as the gateway to the Overberg for travellers heading toward the Garden Route. We install and repair DSTV systems for homes and guesthouses throughout Caledon and the surrounding farmland.",
     "context": "Between established homes in town and the guesthouses that welcome travellers passing through, Caledon has a real mix of DSTV needs — from routine repairs to full installations for properties preparing to host guests. We handle both, along with dish alignment and signal troubleshooting."
+  },
+  {
+    "name": "Sandbaai",
+    "slug": "sandbaai",
+    "region": "overberg",
+    "regionName": "Overberg",
+    "pageTitle": "DSTV Installer Sandbaai | Digitech DSTV",
+    "description": "DSTV installation, repairs and signal fixing in Sandbaai, the seaside suburb next to Hermanus.",
+    "intro": "Sandbaai is a seaside suburb just along the coast from Hermanus, close to Voëlklip, where permanent residents share the streets with holiday homes that fill up in the summer months. We install and repair DSTV across Sandbaai, from brand-new setups to signal faults after a windy spell.",
+    "context": "Because our office is in Hermanus, Sandbaai is practically on our doorstep. Coastal wind and salt air are hard on dishes and connectors here, so on every visit we check the mounting, the alignment and the cabling, not just the part that happens to be failing.",
+    "servicePages": false
+  },
+  {
+    "name": "Paarl",
+    "slug": "paarl",
+    "region": "winelands",
+    "regionName": "Winelands",
+    "pageTitle": "DSTV Installer Paarl | Digitech DSTV",
+    "description": "DSTV installation, repairs and dish alignment in Paarl, in the heart of the Cape Winelands.",
+    "intro": "Paarl stretches along the Berg River beneath the granite domes of Paarl Mountain, with historic homes along Main Street, family suburbs and wine farms on its edges. We provide DSTV installation, repairs and signal fixing across Paarl and the surrounding Drakenstein area.",
+    "context": "Older Paarl properties often have established gardens, mature trees and tall boundary walls that can quietly get in the way of a dish, and farm and estate homes can mean long cable runs between the dish and the decoder. We plan the dish position and the cabling around the property rather than defaulting to the nearest wall.",
+    "servicePages": false
+  },
+  {
+    "name": "Stellenbosch",
+    "slug": "stellenbosch",
+    "region": "winelands",
+    "regionName": "Winelands",
+    "pageTitle": "DSTV Installer Stellenbosch | Digitech DSTV",
+    "description": "DSTV installation, repairs and Extra View setup in Stellenbosch, including student and rental accommodation.",
+    "intro": "Stellenbosch is a university town surrounded by wine estates, with oak-lined streets, historic Cape Dutch homes, modern townhouse developments and a large amount of student and rental accommodation. We install and repair DSTV across Stellenbosch and the surrounding Winelands.",
+    "context": "Rental properties and shared houses often need several TV points set up properly, and landlords want it done once and done right between tenants. Heritage homes have their own constraints, so we plan cable routes and dish positions that work with the building instead of against it.",
+    "servicePages": false
+  },
+  {
+    "name": "Bellville",
+    "slug": "bellville",
+    "region": "cape-town",
+    "regionName": "Cape Town",
+    "pageTitle": "DSTV Installer Bellville | Digitech DSTV",
+    "description": "DSTV installation, repairs and signal fixing in Bellville, one of Cape Town’s busiest Northern Suburbs.",
+    "intro": "Bellville is one of the main commercial hubs of Cape Town’s Northern Suburbs, with offices, shops and apartment blocks sitting alongside long-established residential streets. We provide DSTV installation, repairs and Extra View setup for homes and businesses across Bellville.",
+    "context": "A flat in a busy block, a shop with several screens and an older family house each need a different approach to dish placement and cabling. We assess the property first, including any permission needed for shared roofs, and set it up so the signal holds.",
+    "servicePages": false
+  },
+  {
+    "name": "Brackenfell",
+    "slug": "brackenfell",
+    "region": "cape-town",
+    "regionName": "Cape Town",
+    "pageTitle": "DSTV Installer Brackenfell | Digitech DSTV",
+    "description": "DSTV installation, repairs and Extra View setup in Brackenfell, in Cape Town’s Northern Suburbs.",
+    "intro": "Brackenfell is a largely residential part of the Northern Suburbs, with family homes and newer cluster developments close to Kuils River and Durbanville. We install DSTV and fix signal problems throughout Brackenfell.",
+    "context": "Family homes often want the same thing: the main lounge set up properly and a second TV or two running off the same subscription. We handle the dish, the cabling and the Extra View setup together, so the whole house works after one set-up instead of being sorted room by room.",
+    "servicePages": false
+  },
+  {
+    "name": "Kraaifontein",
+    "slug": "kraaifontein",
+    "region": "cape-town",
+    "regionName": "Cape Town",
+    "pageTitle": "DSTV Installer Kraaifontein | Digitech DSTV",
+    "description": "DSTV installation, repairs and signal fixing in Kraaifontein, on the northern edge of Cape Town.",
+    "intro": "Kraaifontein sits on the northern edge of the Cape Town metro, a large and growing area where established suburbs, newer developments and bigger properties on the outskirts sit side by side. We provide DSTV installation, repairs and dish alignment across Kraaifontein.",
+    "context": "With such a mix of property types there is no one-size-fits-all install. Larger plots can mean longer cable runs, while newer developments are often a first-time installation. We check what is already there, then set up the dish and cabling that suits the property.",
+    "servicePages": false
+  },
+  {
+    "name": "Parow",
+    "slug": "parow",
+    "region": "cape-town",
+    "regionName": "Cape Town",
+    "pageTitle": "DSTV Installer Parow | Digitech DSTV",
+    "description": "DSTV installation, repairs and signal fixing in Parow, an established Northern Suburbs neighbourhood.",
+    "intro": "Parow is an established part of Cape Town’s Northern Suburbs, with older family houses, blocks of flats and commercial premises around Voortrekker Road and the Tygerberg area. We install and repair DSTV for homes and businesses across Parow.",
+    "context": "Older homes can have worn or damaged cabling left over from previous installations, and flats often need the dish position and cable route worked out around shared walls and roofs. We replace what is worn out and set up the rest properly so the signal stays stable.",
+    "servicePages": false
+  },
+  {
+    "name": "Kuils River",
+    "slug": "kuils-river",
+    "region": "cape-town",
+    "regionName": "Cape Town",
+    "pageTitle": "DSTV Installer Kuils River | Digitech DSTV",
+    "description": "DSTV installation, repairs and signal fixing in Kuils River, on the eastern side of Cape Town’s northern areas.",
+    "intro": "Kuils River lies on the eastern side of Cape Town’s northern areas, close to Brackenfell, Bellville and Blackheath, with a mix of residential streets and light industrial premises. We install and repair DSTV for homes and businesses in Kuils River.",
+    "context": "Homes here range from older houses to newer developments, and small businesses and workshops often need a reliable screen set up in a staff room or reception. We make sure the dish is placed and aligned properly and the cabling is neat, so the signal stays steady.",
+    "servicePages": false
   }
 ]

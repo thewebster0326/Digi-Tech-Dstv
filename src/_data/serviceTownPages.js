@@ -12,7 +12,7 @@ const SELECTED_SERVICE_SLUGS = [
 
 module.exports = function () {
   const locations = [
-    ...towns.map((t) => ({
+    ...towns.filter((t) => t.servicePages !== false).map((t) => ({
       name: t.name,
       slug: t.slug,
       hubUrl: `/areas/${t.slug}/`,
