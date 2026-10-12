@@ -186,5 +186,126 @@
     "intro": "Kuils River lies on the eastern side of Cape Town’s northern areas, close to Brackenfell, Bellville and Blackheath, with a mix of residential streets and light industrial premises. We install and repair DSTV for homes and businesses in Kuils River.",
     "context": "Homes here range from older houses to newer developments, and small businesses and workshops often need a reliable screen set up in a staff room or reception. We make sure the dish is placed and aligned properly and the cabling is neat, so the signal stays steady.",
     "servicePages": false
+  },
+  {
+    "name": "Worcester",
+    "slug": "worcester",
+    "region": "winelands",
+    "regionName": "Winelands",
+    "pageTitle": "DSTV Installer Worcester | Digitech DSTV",
+    "description": "DSTV installation, repairs and signal fixing in Worcester, the main town of the Breede River Valley.",
+    "intro": "Worcester is the largest town in the Breede River Valley, sitting between mountain ranges on the N1 on the way from Cape Town towards the Karoo. We provide DSTV installation, repairs and Extra View setup for homes and businesses across Worcester and the surrounding valley.",
+    "context": "Worcester has hot summers and cold winters, and the sun and weather take a toll on dishes, cables and connectors left outside for years. Farms and larger properties around the town can also mean long cable runs from the dish to the TV, so we plan the route before we start and fix anything worn on the way.",
+    "servicePages": false
+  },
+  {
+    "name": "Wellington",
+    "slug": "wellington",
+    "region": "winelands",
+    "regionName": "Winelands",
+    "pageTitle": "DSTV Installer Wellington | Digitech DSTV",
+    "description": "DSTV installation, repairs and dish alignment in Wellington, at the foot of the Hawequa mountains.",
+    "intro": "Wellington is a historic town at the foot of the Hawequa mountains, next to Paarl and the start of Bain’s Kloof Pass, surrounded by wine and fruit farms. We install and repair DSTV across Wellington and the farms around it.",
+    "context": "Older homes in town and farmhouses on the outskirts each have their own quirks, from established trees to outbuildings and long walks between the dish and the lounge. We check the line of sight to the satellite first, then set up the dish and cabling so the signal stays steady.",
+    "servicePages": false
+  },
+  {
+    "name": "Swellendam",
+    "slug": "swellendam",
+    "region": "overberg",
+    "regionName": "Overberg",
+    "pageTitle": "DSTV Installer Swellendam | Digitech DSTV",
+    "description": "DSTV installation, repairs and signal fixing in Swellendam, one of the oldest towns in South Africa.",
+    "intro": "Swellendam sits below the Langeberg mountains on the N2, one of the oldest towns in the country and known for its Cape Dutch buildings and the Drostdy Museum. We provide DSTV installation, repairs and signal fixing for homes, guest houses and businesses in Swellendam.",
+    "context": "Heritage buildings, thick walls and mature gardens can make it harder to find a good dish position and a tidy cable route, and guest houses want it done neatly. We plan around the building rather than against it, and we keep the cabling as discreet as the property allows.",
+    "servicePages": false
+  },
+  {
+    "name": "Grabouw",
+    "slug": "grabouw",
+    "region": "overberg",
+    "regionName": "Overberg",
+    "pageTitle": "DSTV Installer Grabouw | Digitech DSTV",
+    "description": "DSTV installation, repairs and signal fixing in Grabouw and the Elgin Valley.",
+    "intro": "Grabouw lies in the Elgin Valley, a major apple and pear growing area just over Sir Lowry’s Pass from Cape Town on the N2. We install and repair DSTV for homes, farms and businesses across Grabouw and the surrounding Elgin Valley.",
+    "context": "Between orchards, farm cottages and a growing town, the properties here vary a lot, and the hills and tall farm trees can interfere with a dish. We check the signal path before we mount anything, and we replace worn cabling rather than patching it.",
+    "servicePages": false
+  },
+  {
+    "name": "Milnerton",
+    "slug": "milnerton",
+    "region": "cape-town",
+    "regionName": "Cape Town",
+    "pageTitle": "DSTV Installer Milnerton | Digitech DSTV",
+    "description": "DSTV installation, repairs and signal fixing in Milnerton, on the Table Bay coast north of Cape Town.",
+    "intro": "Milnerton is a coastal suburb on the northern side of Table Bay, with a lagoon, a long beachfront and views across the water to Table Mountain. We provide DSTV installation, repairs and Extra View setup for homes and apartments throughout Milnerton.",
+    "context": "Wind and salt air from the bay are hard on dishes, brackets and connectors, and apartment blocks near the water often have shared roofs and rules about where a dish can go. We use sturdy mounting, check the alignment properly, and sort out access with the building where needed.",
+    "servicePages": false
+  },
+  {
+    "name": "Mitchells Plain",
+    "slug": "mitchells-plain",
+    "region": "cape-town",
+    "regionName": "Cape Town",
+    "pageTitle": "DSTV Installer Mitchells Plain | Digitech DSTV",
+    "description": "DSTV installation, repairs and signal fixing in Mitchells Plain, on the Cape Flats.",
+    "intro": "Mitchells Plain is one of the largest residential areas on the Cape Flats, with a very wide mix of family homes, semi-detached houses and flats. We install and repair DSTV for households across Mitchells Plain.",
+    "context": "Many homes here have several people watching at once, so Extra View is a common request, and we run the cabling neatly so a second TV works properly. We also fix signal problems caused by dishes that have shifted, worn cables or an old, poorly fitted installation.",
+    "servicePages": false
+  },
+  {
+    "name": "Constantia",
+    "slug": "constantia",
+    "region": "cape-town",
+    "regionName": "Cape Town",
+    "pageTitle": "DSTV Installer Constantia | Digitech DSTV",
+    "description": "DSTV installation, repairs and Extra View setup in Constantia, in Cape Town’s Southern Suburbs.",
+    "intro": "Constantia is a leafy part of Cape Town’s Southern Suburbs, set in a wine valley beneath the Constantiaberg, with large properties, long driveways and big established gardens. We provide DSTV installation, repairs and Extra View setup across Constantia.",
+    "context": "Big houses and large plots often mean several TVs and long cable runs, and tall trees can block a dish. We plan the dish position and cable routes for the whole property, keep the cabling hidden where we can, and set up extra rooms through Extra View.",
+    "servicePages": false
+  },
+  {
+    "name": "Malmesbury",
+    "slug": "malmesbury",
+    "region": "west-coast",
+    "regionName": "West Coast",
+    "pageTitle": "DSTV Installer Malmesbury | Digitech DSTV",
+    "description": "DSTV installation, repairs and signal fixing in Malmesbury, the main town of the Swartland.",
+    "intro": "Malmesbury is the main town of the Swartland, a wheat and wine farming region north of Cape Town on the N7. We provide DSTV installation, repairs and signal fixing for homes, farms and businesses in Malmesbury and the surrounding area.",
+    "context": "Farmhouses and larger properties often have a long distance between the dish and the lounge, and open country means wind and weather reach the dish directly. We run proper cabling, mount the dish securely and check the alignment so it holds.",
+    "servicePages": false
+  },
+  {
+    "name": "Atlantis",
+    "slug": "atlantis",
+    "region": "west-coast",
+    "regionName": "West Coast",
+    "pageTitle": "DSTV Installer Atlantis | Digitech DSTV",
+    "description": "DSTV installation, repairs and signal fixing in Atlantis, on the West Coast north of Cape Town.",
+    "intro": "Atlantis is a residential and industrial area on the West Coast Road, north of Cape Town and close to Mamre, surrounded by dunes and open land. We install and repair DSTV for homes and businesses in Atlantis.",
+    "context": "The area is open and exposed, so wind and sand can push a dish out of line over time and wear on connectors. We mount dishes securely, re-align them with proper meters and replace worn cabling so the signal stays steady.",
+    "servicePages": false
+  },
+  {
+    "name": "Darling",
+    "slug": "darling",
+    "region": "west-coast",
+    "regionName": "West Coast",
+    "pageTitle": "DSTV Installer Darling | Digitech DSTV",
+    "description": "DSTV installation, repairs and signal fixing in Darling, on the West Coast near Yzerfontein.",
+    "intro": "Darling is a small West Coast town known for its spring wildflowers, its wine farms in the Darling Hills and Evita se Perron. We provide DSTV installation, repairs and signal fixing for homes, farms and guest houses in and around Darling.",
+    "context": "Guest houses and holiday homes want a reliable picture for visitors, and farms often need long cable runs. We install it properly the first time and keep cabling tidy, which matters in older properties.",
+    "servicePages": false
+  },
+  {
+    "name": "Vredenburg",
+    "slug": "vredenburg",
+    "region": "west-coast",
+    "regionName": "West Coast",
+    "pageTitle": "DSTV Installer Vredenburg | Digitech DSTV",
+    "description": "DSTV installation, repairs and signal fixing in Vredenburg, the main town of the Saldanha Bay area.",
+    "intro": "Vredenburg is the main commercial centre of the Saldanha Bay area on the West Coast, with a busy town centre, residential suburbs and a working fishing and industrial economy. We provide DSTV installation, repairs and Extra View setup in Vredenburg and nearby.",
+    "context": "Strong coastal winds are the main enemy of dishes on the West Coast, so we mount them securely, check the alignment and use weather-resistant cabling and connectors. We also handle shop and small-business installs where several screens are needed.",
+    "servicePages": false
   }
 ]
