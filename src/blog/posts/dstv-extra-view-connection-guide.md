@@ -1,6 +1,7 @@
 ---
 title: "How to Connect DSTV Extra View: Dish, Cables and Decoder Setup"
 date: 2026-10-07
+description: "How DSTV Extra View is connected: multi-output LNB, a separate cable per decoder, and why a splitter leaves the second TV without signal."
 excerpt: "Adding a second decoder with DSTV Extra View? Here's what the connection actually involves: the dish, the LNB, separate cables, and the mistakes that leave the second TV without signal."
 ---
 Adding Extra View to your DSTV subscription sounds simple: you get a second decoder and watch different channels in another room. But the connection side is where most home setups go wrong. If you've already read [how Extra View works](/blog/dstv-extra-view-explained/), this guide covers what's physically involved and why the second TV sometimes shows "no signal".

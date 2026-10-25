@@ -3,25 +3,32 @@ layout: base.njk
 pagination:
   data: serviceTownPages
   size: 1
-  alias: page
+  alias: stp
   addAllPagesToCollections: true
-permalink: "areas/{{ page.location.slug }}/{{ page.service.slug }}/index.html"
+permalink: "areas/{{ stp.location.slug }}/{{ stp.service.slug }}/index.html"
 eleventyComputed:
-  title: "{{ page.service.name }} in {{ page.location.name }} | Digitech DSTV"
-  description: "{{ page.service.summary }}"
+  title: "{{ stp.service.name }} in {{ stp.location.name }} | Digitech DSTV"
+  description: "{{ stp.description }}"
 ---
+{% set crumbs = [{ "@type": "ListItem", "position": 1, "name": "Home", "item": site.url + "/" }, { "@type": "ListItem", "position": 2, "name": "Service Areas", "item": site.url + "/areas/" }] %}
+{% if stp.location.regionUrl %}{% set _ = crumbs.push({ "@type": "ListItem", "position": crumbs.length + 1, "name": stp.location.regionName, "item": site.url + stp.location.regionUrl }) %}{% endif %}
+{% set _ = crumbs.push({ "@type": "ListItem", "position": crumbs.length + 1, "name": stp.location.name, "item": site.url + stp.location.hubUrl }) %}
+{% set _ = crumbs.push({ "@type": "ListItem", "position": crumbs.length + 1, "name": stp.service.name, "item": site.url + page.url }) %}
+<script type="application/ld+json">{{ { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": crumbs } | dump | safe }}</script>
+<script type="application/ld+json">{{ { "@context": "https://schema.org", "@type": "Service", "name": stp.service.name + " in " + stp.location.name, "serviceType": stp.service.name, "url": site.url + page.url, "provider": { "@type": "LocalBusiness", "name": site.businessName, "url": site.url, "telephone": "+27812322249" }, "areaServed": { "@type": "Place", "name": stp.location.name + ", Western Cape, South Africa" } } | dump | safe }}</script>
+
 <section class="page-header has-photo" style="background-image: url('/assets/images/header-services.jpg')">
   <div class="page-header-inner">
-    <h1>{{ page.service.name }} in {{ page.location.name }}</h1>
-    <p class="section-lede">{{ page.paragraph }}</p>
+    <h1>{{ stp.service.name }} in {{ stp.location.name }}</h1>
+    <p class="section-lede">{{ stp.paragraph }}</p>
   </div>
 </section>
 
 <section class="section service-town-detail">
   <h2>What's Included</h2>
-  <p>{{ page.service.summary }}</p>
+  <p>{{ stp.service.summary }}</p>
   <ul class="check-list">
-    {% for point in page.service.points %}
+    {% for point in stp.service.points %}
     <li>{{ point }}</li>
     {% endfor %}
   </ul>
@@ -29,8 +36,20 @@ eleventyComputed:
 
 <section class="section service-town-links">
   <p>
-    Looking for other services in {{ page.location.name }}? <a href="{{ page.location.hubUrl }}">See all our services in {{ page.location.name }}</a>{% if page.location.regionUrl %}, part of our <a href="{{ page.location.regionUrl }}">{{ page.location.regionName }}</a> coverage area{% endif %}.
+    Looking for other services in {{ stp.location.name }}? <a href="{{ stp.location.hubUrl }}">See all our services in {{ stp.location.name }}</a>{% if stp.location.regionUrl %}, part of our <a href="{{ stp.location.regionUrl }}">{{ stp.location.regionName }}</a> coverage area{% endif %}.
   </p>
+  <h3>More in {{ stp.location.name }}</h3>
+  <ul class="related-links">
+    {% for other in serviceTownPages | otherServices(stp.location.slug, stp.service.slug) %}
+    <li><a href="/areas/{{ other.location.slug }}/{{ other.service.slug }}/">{{ other.service.name }} in {{ other.location.name }}</a></li>
+    {% endfor %}
+  </ul>
+  <h3>{{ stp.service.name }} in nearby areas</h3>
+  <ul class="related-links">
+    {% for near in serviceTownPages | nearbyService(stp.location.slug, stp.service.slug, 4) %}
+    <li><a href="/areas/{{ near.location.slug }}/{{ near.service.slug }}/">{{ stp.service.name }} in {{ near.location.name }}</a></li>
+    {% endfor %}
+  </ul>
 </section>
 
 {% include "partials/cta-banner.njk" %}

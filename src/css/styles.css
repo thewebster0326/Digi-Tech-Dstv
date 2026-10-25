@@ -317,6 +317,9 @@ a.service-card:hover { border-color: rgba(124, 192, 255, 0.4); transform: transl
 .check-list li::before { content: "✓"; position: absolute; left: 0; color: var(--blue-400); font-weight: 700; }
 .suburb-list li::before { content: "•"; position: absolute; left: 0; color: var(--blue-400); }
 
+.related-links { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 8px 20px; margin: 8px 0 24px; }
+.related-links a { color: var(--blue-300); }
+.related-links a:hover { text-decoration: underline; }
 .suburb-group { margin-bottom: 28px; }
 .suburb-group:last-child { margin-bottom: 0; }
 .suburb-group h3 { font-size: 16px; color: var(--blue-300); margin-bottom: 12px; }

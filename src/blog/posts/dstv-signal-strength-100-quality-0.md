@@ -1,6 +1,7 @@
 ---
 title: "DSTV Signal Strength 100% but Signal Quality 0: What It Means and How to Fix It"
 date: 2026-10-07
+description: "DSTV signal strength 100% but quality 0? Learn what the mismatch means, what you can safely check from the ground, and when to call a technician."
 excerpt: "Your DSTV signal strength screen shows full strength but zero quality? Here's what that mismatch usually means, what you can safely check yourself, and when to call a technician."
 ---
 You open the signal screen on your DSTV decoder and see something that looks contradictory: signal strength is at or near 100%, but signal quality sits at 0. The picture is gone, the decoder says "no signal", and it seems impossible, because surely a strong signal is a good signal?

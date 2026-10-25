@@ -32,13 +32,20 @@ module.exports = function () {
     SELECTED_SERVICE_SLUGS.includes(s.slug)
   );
 
+  const firstSentence = (text) => {
+    const m = text.match(/^.+?[.!?](?=\s|$)/);
+    return (m ? m[0] : text).trim();
+  };
+
   const pages = [];
   for (const location of locations) {
     for (const service of selectedServices) {
+      const paragraph = (copy[location.slug] && copy[location.slug][service.slug]) || "";
       pages.push({
         location,
         service,
-        paragraph: (copy[location.slug] && copy[location.slug][service.slug]) || "",
+        paragraph,
+        description: firstSentence(paragraph),
       });
     }
   }

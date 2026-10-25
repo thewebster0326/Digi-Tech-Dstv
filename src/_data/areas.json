@@ -88,7 +88,8 @@
           "Bloubergstrand"
         ]
       }
-    ]
+    ],
+    "metaDescription": "DSTV installers across Cape Town: City Bowl, Northern and Southern Suburbs, Atlantic Seaboard and Cape Flats. Installations, repairs and signal fixing."
   },
   {
     "name": "West Coast",
@@ -104,7 +105,8 @@
       "Malmesbury",
       "Atlantis",
       "Darling"
-    ]
+    ],
+    "metaDescription": "DSTV installation and repairs on the West Coast: Vredenburg, Saldanha, Langebaan, Malmesbury, Atlantis and Darling. Fast, reliable local installers."
   },
   {
     "name": "Overberg",
@@ -123,7 +125,8 @@
       "Sandbaai",
       "Swellendam",
       "Grabouw"
-    ]
+    ],
+    "metaDescription": "DSTV installation and repairs across the Overberg: Hermanus, Sandbaai, Caledon, Gansbaai, Bredasdorp, Swellendam and Grabouw. Free quotes."
   },
   {
     "name": "Garden Route",
@@ -138,7 +141,8 @@
       "Plettenberg Bay",
       "Wilderness",
       "Stilbaai"
-    ]
+    ],
+    "metaDescription": "DSTV installation on the Garden Route, from George and Mossel Bay to Knysna and Plettenberg Bay. Professional installers, repairs and signal fixing."
   },
   {
     "name": "Winelands",
@@ -151,6 +155,7 @@
       "Franschhoek",
       "Wellington",
       "Worcester"
-    ]
+    ],
+    "metaDescription": "DSTV installation and repairs across the Cape Winelands: Stellenbosch, Paarl, Wellington, Worcester and Franschhoek. Fast, reliable service."
   }
 ]

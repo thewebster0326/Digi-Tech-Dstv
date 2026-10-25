@@ -8,9 +8,10 @@ pagination:
 permalink: "areas/{{ area.slug }}/index.html"
 eleventyComputed:
   title: "{{ area.pageTitle }}"
-  description: "{{ area.intro }}"
+  description: "{{ area.metaDescription or area.intro }}"
 ---
 {% from "partials/macros.njk" import serviceCard %}
+<script type="application/ld+json">{{ { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [ { "@type": "ListItem", "position": 1, "name": "Home", "item": site.url + "/" }, { "@type": "ListItem", "position": 2, "name": "Service Areas", "item": site.url + "/areas/" }, { "@type": "ListItem", "position": 3, "name": area.name, "item": site.url + page.url } ] } | dump | safe }}</script>
 
 <section class="page-header has-photo" style="background-image: url('/assets/images/header-areas.jpg')">
   <div class="page-header-inner">

@@ -11,6 +11,7 @@ eleventyComputed:
   description: "{{ town.description }}"
 ---
 {% from "partials/macros.njk" import serviceCard %}
+<script type="application/ld+json">{{ { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [ { "@type": "ListItem", "position": 1, "name": "Home", "item": site.url + "/" }, { "@type": "ListItem", "position": 2, "name": "Service Areas", "item": site.url + "/areas/" }, { "@type": "ListItem", "position": 3, "name": town.regionName, "item": site.url + "/areas/" + town.region + "/" }, { "@type": "ListItem", "position": 4, "name": town.name, "item": site.url + page.url } ] } | dump | safe }}</script>
 
 <section class="page-header has-photo" style="background-image: url('/assets/images/header-areas.jpg')">
   <div class="page-header-inner">
@@ -41,6 +42,12 @@ eleventyComputed:
 
 <section class="section town-region">
   <p>{{ town.name }} is part of our {{ town.regionName }} coverage area. <a href="/areas/{{ town.region }}/">See all areas we serve in {{ town.regionName }}</a>.</p>
+  <h3>Nearby areas we cover</h3>
+  <ul class="related-links">
+    {% for near in towns | nearby(town.slug, town.region, 6) %}
+    <li><a href="/areas/{{ near.slug }}/">DSTV installer {{ near.name }}</a></li>
+    {% endfor %}
+  </ul>
 </section>
 
 {% include "partials/cta-banner.njk" %}

@@ -1,10 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-ZA">
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>{{ (pageTitle or title) | safe }}</title>
-<meta name="description" content="{{ description or excerpt }}" />
+<meta name="description" content="{{ (description or excerpt) | attr | safe }}" />
+<link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="en_ZA" />
+<meta property="og:site_name" content="{{ site.businessName }}" />
+<meta property="og:title" content="{{ (pageTitle or title) | attr | safe }}" />
+<meta property="og:description" content="{{ (description or excerpt) | attr | safe }}" />
+<meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+<meta property="og:image" content="{{ site.url }}/assets/images/hero-home.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
 <meta name="google-site-verification" content="w0uxg2lBiGXuLq4YF1FCS-uw2S_45Lq1I1uFEN87ZAw" />
 <link rel="icon" type="image/png" href="/assets/logo.png" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
