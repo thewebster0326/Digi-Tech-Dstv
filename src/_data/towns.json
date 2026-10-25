@@ -141,7 +141,15 @@
     "description": "DSTV installation, repairs and signal fixing in Bellville, one of Cape Town’s busiest Northern Suburbs.",
     "intro": "Bellville is one of the main commercial hubs of Cape Town’s Northern Suburbs, with offices, shops and apartment blocks sitting alongside long-established residential streets. We provide DSTV installation, repairs and Extra View setup for homes and businesses across Bellville.",
     "context": "A flat in a busy block, a shop with several screens and an older family house each need a different approach to dish placement and cabling. We assess the property first, including any permission needed for shared roofs, and set it up so the signal holds.",
-    "servicePages": false
+    "servicePages": false,
+    "near": [
+      "parow",
+      "plattekloof",
+      "edgemead",
+      "durbanville",
+      "brackenfell",
+      "kuils-river"
+    ]
   },
   {
     "name": "Brackenfell",
@@ -174,7 +182,13 @@
     "description": "DSTV installation, repairs and signal fixing in Parow, an established Northern Suburbs neighbourhood.",
     "intro": "Parow is an established part of Cape Town’s Northern Suburbs, with older family houses, blocks of flats and commercial premises around Voortrekker Road and the Tygerberg area. We install and repair DSTV for homes and businesses across Parow.",
     "context": "Older homes can have worn or damaged cabling left over from previous installations, and flats often need the dish position and cable route worked out around shared walls and roofs. We replace what is worn out and set up the rest properly so the signal stays stable.",
-    "servicePages": false
+    "servicePages": false,
+    "near": [
+      "plattekloof",
+      "bellville",
+      "edgemead",
+      "pinelands"
+    ]
   },
   {
     "name": "Kuils River",
@@ -185,7 +199,13 @@
     "description": "DSTV installation, repairs and signal fixing in Kuils River, on the eastern side of Cape Town’s northern areas.",
     "intro": "Kuils River lies on the eastern side of Cape Town’s northern areas, close to Brackenfell, Bellville and Blackheath, with a mix of residential streets and light industrial premises. We install and repair DSTV for homes and businesses in Kuils River.",
     "context": "Homes here range from older houses to newer developments, and small businesses and workshops often need a reliable screen set up in a staff room or reception. We make sure the dish is placed and aligned properly and the cabling is neat, so the signal stays steady.",
-    "servicePages": false
+    "servicePages": false,
+    "near": [
+      "brackenfell",
+      "bellville",
+      "kraaifontein",
+      "khayelitsha"
+    ]
   },
   {
     "name": "Worcester",
@@ -240,7 +260,14 @@
     "description": "DSTV installation, repairs and signal fixing in Milnerton, on the Table Bay coast north of Cape Town.",
     "intro": "Milnerton is a coastal suburb on the northern side of Table Bay, with a lagoon, a long beachfront and views across the water to Table Mountain. We provide DSTV installation, repairs and Extra View setup for homes and apartments throughout Milnerton.",
     "context": "Wind and salt air from the bay are hard on dishes, brackets and connectors, and apartment blocks near the water often have shared roofs and rules about where a dish can go. We use sturdy mounting, check the alignment properly, and sort out access with the building where needed.",
-    "servicePages": false
+    "servicePages": false,
+    "near": [
+      "table-view",
+      "parklands",
+      "melkbosstrand",
+      "edgemead",
+      "pinelands"
+    ]
   },
   {
     "name": "Mitchells Plain",
@@ -251,7 +278,11 @@
     "description": "DSTV installation, repairs and signal fixing in Mitchells Plain, on the Cape Flats.",
     "intro": "Mitchells Plain is one of the largest residential areas on the Cape Flats, with a very wide mix of family homes, semi-detached houses and flats. We install and repair DSTV for households across Mitchells Plain.",
     "context": "Many homes here have several people watching at once, so Extra View is a common request, and we run the cabling neatly so a second TV works properly. We also fix signal problems caused by dishes that have shifted, worn cables or an old, poorly fitted installation.",
-    "servicePages": false
+    "servicePages": false,
+    "near": [
+      "khayelitsha",
+      "kuils-river"
+    ]
   },
   {
     "name": "Constantia",
@@ -262,7 +293,15 @@
     "description": "DSTV installation, repairs and Extra View setup in Constantia, in Cape Town’s Southern Suburbs.",
     "intro": "Constantia is a leafy part of Cape Town’s Southern Suburbs, set in a wine valley beneath the Constantiaberg, with large properties, long driveways and big established gardens. We provide DSTV installation, repairs and Extra View setup across Constantia.",
     "context": "Big houses and large plots often mean several TVs and long cable runs, and tall trees can block a dish. We plan the dish position and cable routes for the whole property, keep the cabling hidden where we can, and set up extra rooms through Extra View.",
-    "servicePages": false
+    "servicePages": false,
+    "near": [
+      "bishopscourt",
+      "tokai",
+      "hout-bay",
+      "newlands",
+      "diep-river",
+      "wynberg"
+    ]
   },
   {
     "name": "Malmesbury",
@@ -306,6 +345,589 @@
     "description": "DSTV installation, repairs and signal fixing in Vredenburg, the main town of the Saldanha Bay area.",
     "intro": "Vredenburg is the main commercial centre of the Saldanha Bay area on the West Coast, with a busy town centre, residential suburbs and a working fishing and industrial economy. We provide DSTV installation, repairs and Extra View setup in Vredenburg and nearby.",
     "context": "Strong coastal winds are the main enemy of dishes on the West Coast, so we mount them securely, check the alignment and use weather-resistant cabling and connectors. We also handle shop and small-business installs where several screens are needed.",
+    "servicePages": false
+  },
+  {
+    "name": "Plattekloof",
+    "slug": "plattekloof",
+    "region": "cape-town",
+    "regionName": "Cape Town",
+    "pageTitle": "DSTV Installer Plattekloof | Digitech DSTV",
+    "description": "DSTV installation, repairs and dish alignment in Plattekloof, on higher ground in Cape Town's Northern Suburbs.",
+    "intro": "Plattekloof sits on higher ground in Cape Town's Northern Suburbs, a residential area of family homes and newer estates with wide views over the surrounding suburbs. We install and repair DSTV across Plattekloof, from first-time setups to fixing a signal that has gone unreliable.",
+    "context": "Height is both a help and a hazard here. A dish on high ground often has a clear line to the satellite, but it also catches more wind, so the mounting and the alignment need to be solid or the picture will break up in gusty weather. We mount securely and check the signal with a meter before we leave.",
+    "faq": [
+      {
+        "q": "Does being on a hill affect my DSTV signal?",
+        "a": "Usually it helps, because there is less in the way. The downside is wind, which can slowly push a poorly fixed dish out of line. A firm mounting and a proper alignment check solve most of it."
+      },
+      {
+        "q": "Can you add a second TV to my existing DSTV?",
+        "a": "Yes. We set up Extra View with the right decoder and run the extra cable neatly, so the second room works without a visible mess."
+      }
+    ],
+    "near": [
+      "parow",
+      "edgemead",
+      "bellville"
+    ],
+    "servicePages": false
+  },
+  {
+    "name": "Hout Bay",
+    "slug": "hout-bay",
+    "region": "cape-town",
+    "regionName": "Cape Town",
+    "pageTitle": "DSTV Installer Hout Bay | Digitech DSTV",
+    "description": "DSTV installation, repairs and signal fixing in Hout Bay, from the harbour to the valley and the slopes above.",
+    "intro": "Hout Bay sits in a valley on the Atlantic coast, with a working harbour, a long beach and homes climbing the surrounding slopes. We provide DSTV installation, repairs and signal fixing across Hout Bay, from the harbour area to the houses higher up the mountainside.",
+    "context": "Mountains on several sides mean the line to the satellite is not guaranteed on every plot, and a house low in the valley can face a different problem to one near the top of the slope. We check the signal path before we choose where the dish goes, and we mount for the sea air and wind that reach the valley.",
+    "faq": [
+      {
+        "q": "Why do some Hout Bay homes struggle to get a DSTV signal?",
+        "a": "The surrounding mountains can block the path to the satellite on some plots. A dish moved to a clearer spot on the roof or property often fixes it, which is why we check the line of sight first."
+      },
+      {
+        "q": "Do you work on houses on steep driveways?",
+        "a": "Yes. We plan access and safe working before we start, and we mount the dish where it is secure and has a clear signal rather than where it is merely easiest to reach."
+      }
+    ],
+    "near": [
+      "camps-bay",
+      "bakoven",
+      "constantia",
+      "noordhoek"
+    ],
+    "servicePages": false
+  },
+  {
+    "name": "Rondebosch",
+    "slug": "rondebosch",
+    "region": "cape-town",
+    "regionName": "Cape Town",
+    "pageTitle": "DSTV Installer Rondebosch | Digitech DSTV",
+    "description": "DSTV installation, repairs and Extra View setup in Rondebosch, next to the University of Cape Town.",
+    "intro": "Rondebosch is an established Southern Suburbs neighbourhood beside the University of Cape Town, with older family homes, student accommodation and flats around the Common. We install and repair DSTV for households, landlords and tenants across Rondebosch.",
+    "context": "Large old trees are part of Rondebosch's character, and they can block a dish or shade it for part of the year. Shared student houses often need several TV points and tidy cabling that survives a change of tenants. We deal with both, and we plan the dish position around the trees and not just the nearest wall.",
+    "faq": [
+      {
+        "q": "I rent a house in Rondebosch. Can I get DSTV installed?",
+        "a": "Usually yes, with your landlord's permission for any drilling or dish mounting. We can fit the dish and cabling neatly so it is easy to move or remove later."
+      },
+      {
+        "q": "A tree seems to be blocking my dish. What can be done?",
+        "a": "Often the dish can be moved higher or to another side of the roof where the line to the satellite is clear. If a tree really is the problem, we will tell you honestly before you decide on anything drastic."
+      }
+    ],
+    "near": [
+      "newlands",
+      "observatory",
+      "pinelands",
+      "wynberg"
+    ],
+    "servicePages": false
+  },
+  {
+    "name": "Fish Hoek",
+    "slug": "fish-hoek",
+    "region": "cape-town",
+    "regionName": "Cape Town",
+    "pageTitle": "DSTV Installer Fish Hoek | Digitech DSTV",
+    "description": "DSTV installation, repairs and signal fixing in Fish Hoek, in the valley beside False Bay.",
+    "intro": "Fish Hoek lies in a valley beside False Bay, known for its wide, sheltered beach, the Jager's Walk and a settled community of long-term residents. We install and repair DSTV across Fish Hoek and the roads climbing the slopes on either side of the valley.",
+    "context": "A valley setting means the hills on each side can shade a dish, depending on which slope the house is on, and the sea air takes a steady toll on brackets and connectors. We check where the signal is clearest on each property and use weather-resistant fixings so it holds up for years.",
+    "faq": [
+      {
+        "q": "My picture breaks up in strong wind. Is that the dish?",
+        "a": "Often, yes. Wind can move a dish a little, and even a small shift can cost you the signal. A proper re-alignment and a firmer mounting usually fixes it for good."
+      },
+      {
+        "q": "Can you tidy up old DSTV cabling in my house?",
+        "a": "Yes. Old cables are a common cause of faults, so we replace worn sections and run the new cable neatly while we are there."
+      }
+    ],
+    "near": [
+      "kommetjie",
+      "noordhoek",
+      "tokai"
+    ],
+    "servicePages": false
+  },
+  {
+    "name": "Camps Bay",
+    "slug": "camps-bay",
+    "region": "cape-town",
+    "regionName": "Cape Town",
+    "pageTitle": "DSTV Installer Camps Bay | Digitech DSTV",
+    "description": "DSTV installation, repairs and signal fixing in Camps Bay, from beachfront apartments to villas on the slopes.",
+    "intro": "Camps Bay sits at the foot of the Twelve Apostles on the Atlantic Seaboard, with a famous beachfront strip, holiday apartments and villas stepped up the mountainside. We provide DSTV installation, repairs and signal fixing for permanent homes, holiday lets and guest accommodation in Camps Bay.",
+    "context": "The mountain behind the suburb can affect the signal on some plots, and salt air and winter storms off the Atlantic are hard on outdoor equipment. Holiday properties also need a setup that simply works for guests who have never seen it. We mount securely, test the signal, and make the decoder easy to use.",
+    "faq": [
+      {
+        "q": "I manage a holiday rental in Camps Bay. Can you set up DSTV for guests?",
+        "a": "Yes. We install the dish, cabling and decoder and set it up so guests can switch on and watch. Extra View can cover several rooms from one subscription."
+      },
+      {
+        "q": "Does the sea air damage a DSTV dish?",
+        "a": "Over time it corrodes cheap fixings and connectors. We use weather-resistant mounting and connectors, and we check them on repair visits."
+      }
+    ],
+    "near": [
+      "bakoven",
+      "fresnaye",
+      "sea-point",
+      "hout-bay"
+    ],
+    "servicePages": false
+  },
+  {
+    "name": "Bakoven",
+    "slug": "bakoven",
+    "region": "cape-town",
+    "regionName": "Cape Town",
+    "pageTitle": "DSTV Installer Bakoven | Digitech DSTV",
+    "description": "DSTV installation, repairs and signal fixing in Bakoven, the small Atlantic Seaboard suburb beside Camps Bay.",
+    "intro": "Bakoven is a small, quiet Atlantic Seaboard suburb between Camps Bay and Llandudno, with a handful of streets and homes looking out over the ocean. We install and repair DSTV for the houses and apartments of Bakoven.",
+    "context": "With so few streets and so many sea-facing properties, almost every home deals with wind and salt spray, and the slope behind can restrict where a dish can sit. We pick a position with a clear line to the satellite, fix it for exposed conditions, and keep cabling tidy against walls that are often on show.",
+    "faq": [
+      {
+        "q": "Do you cover small suburbs like Bakoven?",
+        "a": "Yes. We serve the whole Cape Town area, and a short drive from Camps Bay or Hout Bay makes Bakoven an easy call-out."
+      },
+      {
+        "q": "How do I protect a dish from salt and wind?",
+        "a": "Use stainless or well-coated fixings and have the dish aligned and fixed firmly. We do both when we install, and can upgrade an older, rusting setup."
+      }
+    ],
+    "near": [
+      "camps-bay",
+      "hout-bay",
+      "fresnaye"
+    ],
+    "servicePages": false
+  },
+  {
+    "name": "Bishopscourt",
+    "slug": "bishopscourt",
+    "region": "cape-town",
+    "regionName": "Cape Town",
+    "pageTitle": "DSTV Installer Bishopscourt | Digitech DSTV",
+    "description": "DSTV installation, repairs and Extra View setup in Bishopscourt, among the large leafy properties below Table Mountain.",
+    "intro": "Bishopscourt is one of the Southern Suburbs' most exclusive areas, with large, leafy properties on the slopes below Table Mountain and close to Kirstenbosch. We provide DSTV installation, repairs and multi-room Extra View setups across Bishopscourt.",
+    "context": "Big houses mean more TVs and longer cable runs from the dish to each room, and tall mature trees can interfere with the signal. Access can also be through security gates and long driveways. We plan the whole property in advance, arrange access with you, and keep the cabling hidden in a house that is often a showpiece.",
+    "faq": [
+      {
+        "q": "My house is large with TVs in several rooms. What is the best setup?",
+        "a": "Extra View with the right decoders, with cabling planned to reach each room cleanly. We survey the property first so we can propose a setup before any work begins."
+      },
+      {
+        "q": "Can you work around security gates and house rules?",
+        "a": "Yes. Tell us how to arrange access and we will schedule around it, and we keep the work tidy and out of the way."
+      }
+    ],
+    "near": [
+      "constantia",
+      "newlands",
+      "wynberg",
+      "rondebosch"
+    ],
+    "servicePages": false
+  },
+  {
+    "name": "Noordhoek",
+    "slug": "noordhoek",
+    "region": "cape-town",
+    "regionName": "Cape Town",
+    "pageTitle": "DSTV Installer Noordhoek | Digitech DSTV",
+    "description": "DSTV installation, repairs and signal fixing in Noordhoek, near Long Beach and the wetlands.",
+    "intro": "Noordhoek lies in the valley behind Long Beach, with large plots, farm-style properties and a village feel on the road over from Hout Bay. We install and repair DSTV across Noordhoek, from the beachfront edge to homes set back on bigger land.",
+    "context": "Noordhoek is exposed to strong wind, and that is the leading cause of dishes drifting out of alignment here. Larger plots can also mean a long cable run from the dish to the house, or to a separate cottage. We mount firmly, re-align with a meter, and replace long runs that are ageing or damaged.",
+    "faq": [
+      {
+        "q": "Can you connect DSTV to a separate cottage on my property?",
+        "a": "Yes. A long cable run between buildings is common here, and we use the right cable and run it so it is protected from weather and wear."
+      },
+      {
+        "q": "My signal comes and goes on windy days. Why?",
+        "a": "The dish is probably moving slightly in the wind. Re-aiming it and fixing it more firmly normally cures this, and we can check the cable at the same time."
+      }
+    ],
+    "near": [
+      "kommetjie",
+      "fish-hoek",
+      "hout-bay",
+      "tokai"
+    ],
+    "servicePages": false
+  },
+  {
+    "name": "Tokai",
+    "slug": "tokai",
+    "region": "cape-town",
+    "regionName": "Cape Town",
+    "pageTitle": "DSTV Installer Tokai | Digitech DSTV",
+    "description": "DSTV installation, repairs and signal fixing in Tokai, beside Tokai Forest and the Constantia Valley.",
+    "intro": "Tokai sits beside Tokai Forest and the Constantia Valley, a family suburb of established homes, townhouse complexes and quiet streets backing onto the mountain. We install and repair DSTV across Tokai.",
+    "context": "Trees are the main thing to plan around in Tokai: the forest edge and big garden trees can shade a dish and block the signal, and growth over a few seasons can turn a good signal into a poor one. We choose a position with a clear line to the satellite and can re-position a dish that has been overtaken by trees.",
+    "faq": [
+      {
+        "q": "My DSTV worked fine last year but now drops out. Could it be trees?",
+        "a": "It is a common cause. Branches grow, and a clear line to the satellite can slowly close up. Moving the dish or trimming is often the answer."
+      },
+      {
+        "q": "I live in a townhouse complex in Tokai. Who decides where the dish goes?",
+        "a": "Usually the body corporate or complex rules. We can work within them and suggest the best permitted spot for a reliable signal."
+      }
+    ],
+    "near": [
+      "constantia",
+      "diep-river",
+      "wynberg",
+      "noordhoek"
+    ],
+    "servicePages": false
+  },
+  {
+    "name": "Observatory",
+    "slug": "observatory",
+    "region": "cape-town",
+    "regionName": "Cape Town",
+    "pageTitle": "DSTV Installer Observatory | Digitech DSTV",
+    "description": "DSTV installation, repairs and Extra View setup in Observatory, for terraces, student houses and flats near Groote Schuur.",
+    "intro": "Observatory is a lively neighbourhood of Victorian and Edwardian terraces, shared student houses and flats near Groote Schuur Hospital and Lower Main Road. We install and repair DSTV for owners, landlords and tenants across Observatory.",
+    "context": "Older terraced houses often have limited roof space, shared walls and ageing cabling, and they may sit in conservation areas where the look of the front of the building matters. We choose a dish position that works and is discreet, and we replace old cabling so the signal does not degrade on the way to the TV.",
+    "faq": [
+      {
+        "q": "I share a house with other tenants. Can DSTV be set up for everyone?",
+        "a": "Yes. We can fit the dish and cabling, and use Extra View if you want more than one room watching different channels from the same subscription."
+      },
+      {
+        "q": "Can a dish be fitted on an older terraced house?",
+        "a": "Usually. We look for a spot with a clear signal that does not spoil the look of the building, and we avoid damaging old brickwork or roofing."
+      }
+    ],
+    "near": [
+      "rondebosch",
+      "pinelands",
+      "newlands"
+    ],
+    "servicePages": false
+  },
+  {
+    "name": "Fresnaye",
+    "slug": "fresnaye",
+    "region": "cape-town",
+    "regionName": "Cape Town",
+    "pageTitle": "DSTV Installer Fresnaye | Digitech DSTV",
+    "description": "DSTV installation, repairs and Extra View setup in Fresnaye, the upmarket Atlantic Seaboard suburb below Signal Hill.",
+    "intro": "Fresnaye is a compact, upmarket Atlantic Seaboard suburb between Sea Point and Bantry Bay, with apartment blocks and villas on slopes that look out over the ocean. We provide DSTV installation, repairs and Extra View setup across Fresnaye.",
+    "context": "Many properties here are apartments with shared roofs and building rules, and the slopes and sea exposure make every position different. We check what the body corporate allows, choose a position with a clear signal, and mount for the wind and salt that come off the Atlantic.",
+    "faq": [
+      {
+        "q": "I live in an apartment block in Fresnaye. Do I need permission?",
+        "a": "Usually from the body corporate or building manager. Many blocks already have a place for dishes, and we can work with what is allowed."
+      },
+      {
+        "q": "Can you hide the cabling in a high-end apartment?",
+        "a": "We run cable neatly and, where possible, through existing routes so there are no visible lines across walls or ceilings."
+      }
+    ],
+    "near": [
+      "sea-point",
+      "camps-bay",
+      "bakoven"
+    ],
+    "servicePages": false
+  },
+  {
+    "name": "Edgemead",
+    "slug": "edgemead",
+    "region": "cape-town",
+    "regionName": "Cape Town",
+    "pageTitle": "DSTV Installer Edgemead | Digitech DSTV",
+    "description": "DSTV installation, repairs and signal fixing in Edgemead, a quiet family suburb in Cape Town's Northern Suburbs.",
+    "intro": "Edgemead is a quiet, established family suburb in Cape Town's Northern Suburbs, close to Monte Vista, Bothasig and Milnerton. We install and repair DSTV for homes across Edgemead.",
+    "context": "Many houses here have been through several owners and several DSTV installations, so we often find old dishes, redundant cables and loose connections left behind. We sort out what is there, replace what is worn, and leave a single clean setup that works, with a second or third TV added if you want one.",
+    "faq": [
+      {
+        "q": "There is an old dish on my roof. Do I need a new one?",
+        "a": "Not always. We test what is there and re-align it or replace only what is faulty. If it is beyond use, we tell you and quote for a replacement."
+      },
+      {
+        "q": "Can you add more TV points in an older home?",
+        "a": "Yes. We use Extra View and run the cabling neatly, and we can reuse existing routes where they are in good condition."
+      }
+    ],
+    "near": [
+      "plattekloof",
+      "parow",
+      "milnerton",
+      "bellville"
+    ],
+    "servicePages": false
+  },
+  {
+    "name": "Wynberg",
+    "slug": "wynberg",
+    "region": "cape-town",
+    "regionName": "Cape Town",
+    "pageTitle": "DSTV Installer Wynberg | Digitech DSTV",
+    "description": "DSTV installation, repairs and signal fixing in Wynberg, one of the older Southern Suburbs.",
+    "intro": "Wynberg is one of the older Southern Suburbs, a mix of Victorian cottages, flats and busy shopping streets around Maynardville and Main Road. We install and repair DSTV for homes, flats and small businesses across Wynberg.",
+    "context": "With so much older housing, we often find worn cabling and dishes fitted years ago with no thought to alignment. Flats and shared buildings also need permission and a shared-roof plan. We start by checking what is there and what the building allows, then fit or fix it properly.",
+    "faq": [
+      {
+        "q": "Can you set up DSTV in a small business in Wynberg?",
+        "a": "Yes. We install in shops, offices and waiting rooms, with the right package and neat cabling so the screens stay reliable through the working day."
+      },
+      {
+        "q": "My cottage has thick walls. Is that a problem?",
+        "a": "It affects how we run cable, not the signal at the dish. We route it through existing gaps where we can and avoid unnecessary drilling in old walls."
+      }
+    ],
+    "near": [
+      "diep-river",
+      "rondebosch",
+      "newlands",
+      "bishopscourt",
+      "tokai"
+    ],
+    "servicePages": false
+  },
+  {
+    "name": "Sea Point",
+    "slug": "sea-point",
+    "region": "cape-town",
+    "regionName": "Cape Town",
+    "pageTitle": "DSTV Installer Sea Point | Digitech DSTV",
+    "description": "DSTV installation, repairs and signal fixing in Sea Point, for apartment blocks along the Atlantic promenade.",
+    "intro": "Sea Point is one of Cape Town's most densely built-up areas, with tall apartment blocks facing the promenade and the Atlantic. We install and repair DSTV for owners, tenants and building managers across Sea Point.",
+    "context": "Almost everyone here lives in a building with a body corporate, shared roofs and several floors between the dish and your TV, so the work involves permission, access and cable routes as much as the dish itself. Sea wind and salt are constant. We work through the building's rules, fix for exposed conditions, and keep to the agreed route.",
+    "faq": [
+      {
+        "q": "I rent a flat in Sea Point. Can I get DSTV?",
+        "a": "Often yes. Check whether your building already has a shared dish or an allowed position, and we can connect you or fit your own where it is permitted."
+      },
+      {
+        "q": "Why does my picture break up in bad weather?",
+        "a": "Heavy rain can weaken a signal, and a dish that is slightly out of alignment suffers more. A proper alignment gives you the best margin in poor weather."
+      }
+    ],
+    "near": [
+      "fresnaye",
+      "camps-bay",
+      "bakoven"
+    ],
+    "servicePages": false
+  },
+  {
+    "name": "Parklands",
+    "slug": "parklands",
+    "region": "cape-town",
+    "regionName": "Cape Town",
+    "pageTitle": "DSTV Installer Parklands | Digitech DSTV",
+    "description": "DSTV installation, repairs and Extra View setup in Parklands, in the growing Blaauwberg area near Table View.",
+    "intro": "Parklands is a large, fast-growing residential area in Blaauwberg, next to Table View, made up mostly of newer homes, townhouses and complexes. We install and repair DSTV across Parklands.",
+    "context": "Many homes here are recent builds, often with no dish and cabling that was never run for a satellite system, or with a decoder that has only ever been connected in one room. We handle first-time installations, run cabling for extra rooms, and set up Extra View so the whole household is covered from the start.",
+    "faq": [
+      {
+        "q": "My new home has no DSTV wiring. Can you install from scratch?",
+        "a": "Yes. We fit the dish, run the cabling to your TV points and set up the decoder, and we can add more rooms with Extra View."
+      },
+      {
+        "q": "I live in a complex in Parklands. Where does the dish go?",
+        "a": "That depends on the complex rules. We can work with the managing agent to place it where it is permitted and has a clear signal."
+      }
+    ],
+    "near": [
+      "table-view",
+      "milnerton",
+      "melkbosstrand"
+    ],
+    "servicePages": false
+  },
+  {
+    "name": "Table View",
+    "slug": "table-view",
+    "region": "cape-town",
+    "regionName": "Cape Town",
+    "pageTitle": "DSTV Installer Table View | Digitech DSTV",
+    "description": "DSTV installation, repairs and signal fixing in Table View, facing Table Mountain across Table Bay.",
+    "intro": "Table View is a beachside suburb on the northern shore of Table Bay, famous for its view of Table Mountain, its wide beaches and the kitesurfers at Bloubergstrand. We install and repair DSTV for the homes and apartments of Table View.",
+    "context": "Strong summer wind off the bay is the main enemy of dishes here, and blown sand and salt wear down connectors quickly. We mount dishes for exposed conditions, align them carefully, and use weather-resistant connectors so the signal stays steady through the windy months.",
+    "faq": [
+      {
+        "q": "The south-easter seems to knock my signal out. What can I do?",
+        "a": "A firmer mounting and a careful alignment make a big difference. We can also check the cable and connectors, because wear on those often adds to the problem."
+      },
+      {
+        "q": "Can you install in a Table View apartment with a sea view?",
+        "a": "Yes. We work with the building's rules and find a position with a clear line to the satellite, and we run cable cleanly so it does not affect the view."
+      }
+    ],
+    "near": [
+      "parklands",
+      "milnerton",
+      "melkbosstrand"
+    ],
+    "servicePages": false
+  },
+  {
+    "name": "Khayelitsha",
+    "slug": "khayelitsha",
+    "region": "cape-town",
+    "regionName": "Cape Town",
+    "pageTitle": "DSTV Installer Khayelitsha | Digitech DSTV",
+    "description": "DSTV installation, repairs and Extra View setup in Khayelitsha, with secure mounting and neat cabling for family homes.",
+    "intro": "Khayelitsha is one of the largest and most densely populated areas on the Cape Flats, home to many families in a wide mix of housing. We install and repair DSTV for households and small businesses across Khayelitsha.",
+    "context": "In busy family homes, several people often want to watch at once, so a second TV on the same subscription is a common request. Security matters too, so we mount dishes firmly and place them where they are secure and have a clear signal. We give you a clear quote first and explain what the installation involves.",
+    "faq": [
+      {
+        "q": "Can my family watch different channels in different rooms?",
+        "a": "Yes, with Extra View. A second decoder is linked to your subscription so another TV can watch its own channel. We install and set it up for you."
+      },
+      {
+        "q": "How do I know what the installation will cost?",
+        "a": "We quote before any work begins, so you know the price up front. Contact us for a free quote and we will explain what is included."
+      }
+    ],
+    "near": [
+      "mitchells-plain",
+      "kuils-river"
+    ],
+    "servicePages": false
+  },
+  {
+    "name": "Newlands",
+    "slug": "newlands",
+    "region": "cape-town",
+    "regionName": "Cape Town",
+    "pageTitle": "DSTV Installer Newlands | Digitech DSTV",
+    "description": "DSTV installation, repairs and signal fixing in Newlands, beside Newlands Forest and the stadiums.",
+    "intro": "Newlands is a leafy Southern Suburbs neighbourhood below the mountain, beside Newlands Forest and best known for its rugby and cricket grounds. We install and repair DSTV for homes and flats across Newlands.",
+    "context": "Trees are the main thing to plan around here, since big old gardens and the forest edge can shade a dish. Match days also mean a lot of people want a reliable signal at home. We choose a dish position with a clear line to the satellite and align it carefully, so big games do not come with a dropout.",
+    "faq": [
+      {
+        "q": "Can you make sure my DSTV is reliable for big matches?",
+        "a": "We can't control the broadcast, but we can make sure your dish, cabling and decoder are in good shape so the signal at your end is as strong as it can be."
+      },
+      {
+        "q": "Will trimming a tree help my signal?",
+        "a": "Sometimes. We will tell you whether the tree is really the problem and whether moving the dish would solve it without cutting anything."
+      }
+    ],
+    "near": [
+      "rondebosch",
+      "bishopscourt",
+      "wynberg",
+      "constantia"
+    ],
+    "servicePages": false
+  },
+  {
+    "name": "Diep River",
+    "slug": "diep-river",
+    "region": "cape-town",
+    "regionName": "Cape Town",
+    "pageTitle": "DSTV Installer Diep River | Digitech DSTV",
+    "description": "DSTV installation, repairs and signal fixing in Diep River, an established residential suburb in the Southern Suburbs.",
+    "intro": "Diep River is an established residential suburb in the Southern Suburbs, close to Wynberg, Plumstead and Tokai, with long-standing family homes on quiet streets. We install and repair DSTV across Diep River.",
+    "context": "Homes that have been lived in for decades often carry old dishes, patched cabling and decoders that have been moved around. We untangle what is there, replace what is worn out, and leave you with a clean setup, with extra TV points added if you need them.",
+    "faq": [
+      {
+        "q": "My DSTV cabling is very old. Should I replace it?",
+        "a": "If it is corroded, damaged or very old, yes. Poor cable is a frequent cause of dropouts, and replacing it is usually quicker and cheaper than chasing the fault."
+      },
+      {
+        "q": "Can you move my DSTV to a different room?",
+        "a": "Yes. We can relocate the decoder and run the cable to the new spot, and check the signal there before we finish."
+      }
+    ],
+    "near": [
+      "wynberg",
+      "tokai",
+      "constantia",
+      "bishopscourt"
+    ],
+    "servicePages": false
+  },
+  {
+    "name": "Kommetjie",
+    "slug": "kommetjie",
+    "region": "cape-town",
+    "regionName": "Cape Town",
+    "pageTitle": "DSTV Installer Kommetjie | Digitech DSTV",
+    "description": "DSTV installation, repairs and signal fixing in Kommetjie, the coastal village near Long Beach and Slangkop Lighthouse.",
+    "intro": "Kommetjie is a small coastal village on the Atlantic side of the Cape Peninsula, known for Long Beach, its surf breaks and Slangkop Lighthouse. We provide DSTV installation, repairs and signal fixing for the homes of Kommetjie.",
+    "context": "Right on the coast, wind and salt are a fact of life. They loosen dishes and corrode fixings faster than inland. Many houses here are holiday homes that sit empty between visits, so a fault can go unnoticed for weeks. We mount for exposed conditions and can check an unused home's setup before the next stay.",
+    "faq": [
+      {
+        "q": "My holiday home in Kommetjie has been empty for months. Can you check the DSTV?",
+        "a": "Yes. We test the dish, cabling and decoder, fix what has weathered, and get it ready for the next stay."
+      },
+      {
+        "q": "Why does DSTV fail more often near the coast?",
+        "a": "Wind moves dishes and salt corrodes metal and connectors. Stronger mounting and weather-resistant parts reduce both problems."
+      }
+    ],
+    "near": [
+      "noordhoek",
+      "fish-hoek",
+      "hout-bay"
+    ],
+    "servicePages": false
+  },
+  {
+    "name": "Pinelands",
+    "slug": "pinelands",
+    "region": "cape-town",
+    "regionName": "Cape Town",
+    "pageTitle": "DSTV Installer Pinelands | Digitech DSTV",
+    "description": "DSTV installation, repairs and signal fixing in Pinelands, the garden suburb with heritage character.",
+    "intro": "Pinelands is a planned garden suburb with tree-lined streets, Tudor-style cottages and a strong heritage character, close to Maitland and Thornton. We install and repair DSTV across Pinelands.",
+    "context": "Parts of Pinelands are protected for their character, so where a dish can go on a street-facing wall or roof matters. Large mature trees can also shade it. We check what is allowed, pick a discreet position with a clear signal, and keep cabling out of sight.",
+    "faq": [
+      {
+        "q": "Are there rules about fitting a dish in Pinelands?",
+        "a": "Some areas have heritage or neighbourhood guidelines, particularly for what is visible from the street. We choose a discreet position and can advise on what you should check first."
+      },
+      {
+        "q": "Can you hide the cable in an older cottage?",
+        "a": "Where we can, we use existing routes and gaps rather than cutting into walls, so the cable is out of sight and the building is not damaged."
+      }
+    ],
+    "near": [
+      "observatory",
+      "rondebosch",
+      "milnerton",
+      "edgemead"
+    ],
+    "servicePages": false
+  },
+  {
+    "name": "Melkbosstrand",
+    "slug": "melkbosstrand",
+    "region": "cape-town",
+    "regionName": "Cape Town",
+    "pageTitle": "DSTV Installer Melkbosstrand | Digitech DSTV",
+    "description": "DSTV installation, repairs and signal fixing in Melkbosstrand, the coastal town on the West Coast road.",
+    "intro": "Melkbosstrand is a coastal town on the West Coast road north of Table View, with a long beach, a mix of permanent residents and holiday homes, and the Koeberg power station nearby. We install and repair DSTV across Melkbosstrand.",
+    "context": "It is open and exposed to the Atlantic wind, which pushes dishes out of alignment and wears connectors, and many homes are lived in only part of the year. We fix dishes firmly, re-align them with a meter, and replace weathered cabling so the signal holds up between visits.",
+    "faq": [
+      {
+        "q": "My signal has got worse over time. Why?",
+        "a": "Wind and weather slowly move a dish and wear the cable and connectors. A re-alignment and replacing worn parts usually brings it back."
+      },
+      {
+        "q": "Can you install DSTV in a new home in Melkbosstrand?",
+        "a": "Yes. We fit the dish, run the cabling, set up the decoder, and add more rooms with Extra View if you want them."
+      }
+    ],
+    "near": [
+      "table-view",
+      "parklands",
+      "milnerton"
+    ],
     "servicePages": false
   }
 ]

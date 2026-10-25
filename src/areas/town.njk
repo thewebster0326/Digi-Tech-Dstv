@@ -24,20 +24,39 @@ eleventyComputed:
   <p>{{ town.context }}</p>
 </section>
 
+{% if town.faq %}
+<section class="section faq">
+  <h2>DSTV questions in {{ town.name }}</h2>
+  {% for item in town.faq %}
+  <details class="faq-item">
+    <summary>{{ item.q }}</summary>
+    <p>{{ item.a }}</p>
+  </details>
+  {% endfor %}
+</section>
+{% endif %}
+
 <section class="section town-services">
   <h2>DSTV Services in {{ town.name }}</h2>
+  {% if town.servicePages == false %}
+  <ul class="check-list">
+    {% for service in services %}
+      {% if service.slug != "satellite-dish-installation" %}
+      <li>{{ service.name }} in {{ town.name }}</li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+  <a href="/services/" class="btn btn-ghost">See What Each Service Includes</a>
+  {% else %}
   <div class="grid grid-3">
     {% for service in services %}
       {% if service.slug != "satellite-dish-installation" %}
-        {% if town.servicePages == false %}
-          {{ serviceCard(service, true) }}
-        {% else %}
-          {{ serviceCard(service, true, "/areas/" + town.slug + "/" + service.slug + "/") }}
-        {% endif %}
+        {{ serviceCard(service, true, "/areas/" + town.slug + "/" + service.slug + "/") }}
       {% endif %}
     {% endfor %}
   </div>
   <a href="/services/" class="btn btn-ghost">View All Services</a>
+  {% endif %}
 </section>
 
 <section class="section town-region">

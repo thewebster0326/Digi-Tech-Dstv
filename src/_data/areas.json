@@ -34,7 +34,8 @@
           "Camps Bay",
           "Clifton",
           "Mouille Point",
-          "Hout Bay"
+          "Bakoven",
+          "Fresnaye"
         ]
       },
       {
@@ -46,7 +47,10 @@
           "Constantia",
           "Wynberg",
           "Tokai",
-          "Bergvliet"
+          "Bergvliet",
+          "Observatory",
+          "Bishopscourt",
+          "Diep River"
         ]
       },
       {
@@ -58,7 +62,10 @@
           "Brackenfell",
           "Parow",
           "Goodwood",
-          "Kuils River"
+          "Kuils River",
+          "Plattekloof",
+          "Edgemead",
+          "Pinelands"
         ]
       },
       {
@@ -85,7 +92,18 @@
         "suburbs": [
           "Milnerton",
           "Table View",
-          "Bloubergstrand"
+          "Bloubergstrand",
+          "Parklands",
+          "Melkbosstrand"
+        ]
+      },
+      {
+        "name": "Southern Peninsula",
+        "suburbs": [
+          "Hout Bay",
+          "Noordhoek",
+          "Kommetjie",
+          "Fish Hoek"
         ]
       }
     ],

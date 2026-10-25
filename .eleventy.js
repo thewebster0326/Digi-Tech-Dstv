@@ -46,6 +46,10 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addFilter("nearby", function (townsList, slug, regionSlug, n) {
+    const self = townsList.find((t) => t.slug === slug);
+    if (self && Array.isArray(self.near) && self.near.length) {
+      return self.near.map((s) => townsList.find((t) => t.slug === s)).filter(Boolean).slice(0, n);
+    }
     const group = townsList.filter((t) => t.region === regionSlug);
     const i = group.findIndex((t) => t.slug === slug);
     const out = [];
