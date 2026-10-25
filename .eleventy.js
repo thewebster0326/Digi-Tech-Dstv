@@ -65,6 +65,16 @@ module.exports = function (eleventyConfig) {
     return out;
   });
 
+  eleventyConfig.addFilter("byRegion", function (townsList, regionSlug) {
+    return townsList.filter((t) => t.region === regionSlug).sort((a, b) => a.name.localeCompare(b.name));
+  });
+
+  eleventyConfig.addFilter("rotate", function (list, start, n) {
+    const out = [];
+    for (let k = 0; k < n && k < list.length; k++) out.push(list[(start + k) % list.length]);
+    return out;
+  });
+
   eleventyConfig.addFilter("otherServices", function (pages, locationSlug, serviceSlug) {
     return pages.filter((p) => p.location.slug === locationSlug && p.service.slug !== serviceSlug);
   });

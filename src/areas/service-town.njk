@@ -24,15 +24,53 @@ eleventyComputed:
   </div>
 </section>
 
+<section class="section service-town-body">
+  <h2>{{ stp.service.name }} in {{ stp.location.name }}: what to expect</h2>
+  {% for para in stp.body %}
+  <p>{{ para }}</p>
+  {% endfor %}
+</section>
+
 <section class="section service-town-detail">
   <h2>What's Included</h2>
-  <p>{{ stp.service.summary }}</p>
   <ul class="check-list">
     {% for point in stp.service.points %}
     <li>{{ point }}</li>
     {% endfor %}
   </ul>
 </section>
+
+<section class="section faq">
+  <h2>Questions about {{ stp.service.name }} in {{ stp.location.name }}</h2>
+  {% for item in stp.faq %}
+  <details class="faq-item">
+    <summary>{{ item.q }}</summary>
+    <p>{{ item.a }}</p>
+  </details>
+  {% endfor %}
+</section>
+
+{% if stp.guides.length %}
+<section class="section service-town-guides">
+  <h3>Helpful guides</h3>
+  <ul class="related-links">
+    {% for guide in stp.guides %}
+    <li><a href="{{ guide.url }}">{{ guide.title }}</a></li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+{% if stp.location.slug == "cape-town" %}
+<section class="section service-town-suburbs">
+  <h3>Cape Town suburbs we serve</h3>
+  <ul class="related-links">
+    {% for sub in towns | byRegion("cape-town") | rotate(stp.order * 7, 12) %}
+    <li><a href="/areas/{{ sub.slug }}/">{{ sub.name }}</a></li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
 
 <section class="section service-town-links">
   <p>
