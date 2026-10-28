@@ -12,7 +12,7 @@
 <meta property="og:title" content="{{ (pageTitle or title) | attr | safe }}" />
 <meta property="og:description" content="{{ (description or excerpt) | attr | safe }}" />
 <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
-<meta property="og:image" content="{{ site.url }}/assets/images/hero-home.jpg" />
+<meta property="og:image" content="{{ site.url }}{{ image or "/assets/images/hero-home.jpg" }}" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="google-site-verification" content="w0uxg2lBiGXuLq4YF1FCS-uw2S_45Lq1I1uFEN87ZAw" />
 <link rel="icon" type="image/png" href="/assets/logo.png" />
